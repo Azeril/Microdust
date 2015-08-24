@@ -1,5 +1,5 @@
 # Site settings
-title: Microdust 微塵
+title: Microdust 微尘
 header-img: img/home-bg.jpg
 email: azeril@live.cn 
 description: "明朝即長路 惜取此時心"
@@ -16,11 +16,14 @@ zhihu_username: Azeril
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # use Github Flavored Markdown !important
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 
-kramdown:
-  input: GFM
+defaults:
+
+    values:
+      layout: "post"
+      author: "nietaki"
