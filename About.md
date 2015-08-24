@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "你总算找到我啦"
-header-img: "img/umbrella.jpg"
+header-img: "img/plane.jpg"
 ---
 
 ### Who is...Azeril?
@@ -10,9 +10,9 @@ header-img: "img/umbrella.jpg"
 
 Ehhhh...I know it's not a good question.
 
-My Name is Azeril Lapland.You can find me in somewhere such as douban.com/Goodreads.com/facebook/instagram/twitter/weibo.com so on.It's easy to know me.My short name is Az.,it easy to remember...
+My Name is Azeril. You may find me in sites like douban.com/Goodreads.com/Facebook/Instagram/Twitter/Weibo.com, so on and so forth. It’s easy to know me. My short name is Az., quite easy to remember, right?
 
-喜欢折腾的伪技术宅。一点点 geek，一点点认真，就像吃烧烤时多少会添加一点孜然一样，如此的程度。多的是折腾，也希望多几分专注和勇敢。
+喜欢折腾的伪技术宅。一点点 geek，一丢丢的执著，就像吃烧烤时多少会撒一点孜然，恰到好处就够。日常之中，多的是折腾劲，也希望能添几分专注、几许勇敢。这就是我。
 
 ——Azeril
 
