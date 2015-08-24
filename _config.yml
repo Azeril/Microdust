@@ -31,4 +31,4 @@ defaults:
     values:
       layout: "post"
       author: "Azeril"
-      header-img: "img/umbrella.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
