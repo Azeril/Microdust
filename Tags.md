@@ -34,9 +34,7 @@ header-img: "img/bay.jpg"
 			</div>
             
             <blockquote class="tag-comments">
-                rules for tags：
-                    <li></li>
-                    <li></li>
+
             </blockquote>
             
             <!-- 标签列表 -->
