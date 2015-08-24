@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tools 工具集"
+title: "Tools"
 description: "我的小工具箱"
 header-img: "img/about-bg.jpg"
 ---
