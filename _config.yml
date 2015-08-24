@@ -22,8 +22,13 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 # use Github Flavored Markdown !important
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 
+# Defaults for posts
 defaults:
-
+  -
+    scope: 
+      path: ""
+      type: "posts"
     values:
       layout: "post"
-      author: "nietaki"
+      author: "Azeril"
+      header-img: "img/home-bg.jpg" # We don't want posts without a header image, that whould mean white on white
