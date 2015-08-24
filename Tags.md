@@ -1,7 +1,11 @@
 ---
-title: Tags
-layout: default
+layout: page
+title: "Tags"
+description: "博客标签库"
+header-img: "img/bay.jpg"
 ---
+
+
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
