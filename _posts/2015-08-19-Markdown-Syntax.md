@@ -231,7 +231,7 @@ My Favorite Fruit List:
 
 以下为一个在 md 中添加网址的栗子：
 
-    [My Blog](azeril.me)
+    [My Blog](http://azeril.me)
 
 显示效果如下：
 

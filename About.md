@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "About Me"
+title: "About"
 description: "你总算找到我啦"
-header-img: "img/about-bg.jpg"
+header-img: "img/umbrella.jpg"
 ---
 
 ### Who is...Azeril?
