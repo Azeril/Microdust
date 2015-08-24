@@ -1,15 +1,15 @@
 # Site settings
 title: Microdust 微尘
-header-img: img/home-bg.jpg
-email: azeril@live.cn 
-description: "明朝即長路 惜取此時心"
+header-img: img/home-bg.jpg  
+email: azeril@live.cn  
+description: "明朝即長路 惜取此時心"  
 baseurl: ""
-url: "http://azeril.me"
-twitter_username: Azeril_Lapland
-github_username:  Azeril 
+url: "http://azeril.me"  
+twitter_username: Azeril_Lapland  
+github_username:  Azeril  
 facebook_username:  Azeril_Lapland  
-weibo_username: Azeril
-zhihu_username: Azeril
+weibo_username: Azeril  
+zhihu_username: Azeril  
 
 
 # Build settings
