@@ -26,7 +26,7 @@ Markdown 格式的简洁特性、兼容性好，使之能快速转换为各种�
 
 * [Scrivener](http://www.literatureandlatte.com/scrivener.php)
 * [Typed](http://realmacsoftware.com/typed/)
-* [iA | Writer for Mac](https://ia.net/writer/mac/)
+* [iA Writer for Mac](https://ia.net/writer/mac/)
 * [Byword](http://bywordapp.com/)
 * [Marked 2](http://marked2app.com/)
 * [Ulysses](http://www.ulyssesapp.com/)
