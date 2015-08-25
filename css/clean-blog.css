@@ -308,7 +308,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  color: #4CD5F3;
+  color: #808080;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
@@ -319,7 +319,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #4CD5F3;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -341,7 +341,7 @@ hr.small {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #0085a1;
+  color: #4CD5F3;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
@@ -377,11 +377,11 @@ footer .copyright {
   margin-bottom: 0;
 }
 footer .copyright a {
-  color: #337ab7;
+  color: #93e1de;
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
-  color: #0085a1;
+  color: #44bff2;
 }
 .floating-label-form-group {
   font-size: 14px;
@@ -481,8 +481,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #00c9d7;
+  border: 1px solid #00c9d7;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
@@ -495,12 +495,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #00c9d7;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #00c9d7;
 }
 img::selection {
   color: white;
@@ -511,7 +511,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #00c9d7;
 }
 /* tags support */
 .tags {
