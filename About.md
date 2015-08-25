@@ -7,10 +7,11 @@ header-img: "img/plane.jpg"
 
 ### About me, about Azeril...
 
-<center>
-    ![Me](http://dreamofbook.qiniudn.com/Zero.png)
-</center>
 
+
+<center>
+    <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
+</center>
 
 Ehhhh...I know it's not a good question.
 
