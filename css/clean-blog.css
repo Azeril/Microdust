@@ -79,7 +79,7 @@ hr.small {
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #0085a1;
+  color: #00c4ee;
 }
 .post-container ul,
 .post-container ol {
@@ -292,7 +292,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #29BCE1;
 }
 .post-preview > a > .post-title {
   font-size: 21px;
