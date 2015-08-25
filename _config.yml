@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://azeril.me"  
 
 # About/contact
-author:
+author: "Azeril"
   name: "Azeril"
   email: azeril@live.cn
 
@@ -16,8 +16,8 @@ gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
 twitter_username: Azeril_Lapland  
-github_username:  Azeril  
-facebook_username:  Azeril_Lapland  
+github_username: Azeril  
+facebook_username: Azeril_Lapland  
 weibo_username: Azeril  
 zhihu_username: Azeril  
 
@@ -31,15 +31,8 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 relative_permalinks: true
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
+timezone: Asia/Shanghai
 
 # Defaults for posts
 defaults:
@@ -49,7 +42,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: 
+      author: ""
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
