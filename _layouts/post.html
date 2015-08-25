@@ -46,12 +46,12 @@ layout: default
 
                 <hr>
 
-                <!-- 多说 Share start -->
+                <!-- Duoshuo Share start -->
                 <style>
                     .ds-share{
                         text-align: right;
                     }
-                    /* 移动端暂时不显示 */
+                    
                     @media only screen and (max-width: 700px) {
                         .ds-share {
 
@@ -62,7 +62,7 @@ layout: default
                 <div class="ds-share"
                     data-thread-key="{{page.id}}" data-title="{{page.title}}"
                     data-images="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | Hux Blog，@Hux黄玄 的个人博客"
+                    data-content="{{ content | strip_html | truncate:80 }} | Microdust:Azeril's blog"
                     data-url="{{site.url}}{{page.url}}">
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
@@ -77,7 +77,7 @@ layout: default
                     </div>
                 <hr>
                 </div>
-                <!-- 多少 Share end-->
+                <!-- Duoshuo Share end-->
 
 
                 <ul class="pager">

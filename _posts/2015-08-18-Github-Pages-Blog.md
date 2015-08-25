@@ -78,7 +78,7 @@ Github 客户端下载地址：[GitHub for Mac](https://desktop.github.com/)
 
 那我们回过来，说说我们刚才下载到本地的项目到底该如何处理吧——如何修改博客和添加博文。这是接下来要讲的。
 
-## Github Pages 项目文档说明：
+## Github Pages 项目文档说明
 
 打开 clone 到本地的 Github 项目，一般目录里有以下类型的文件。 
 
