@@ -8,7 +8,7 @@ header-img: "img/plane.jpg"
 ### About me, about Azeril...
 
 <center>
-    ![Me](img/Zero.png)
+    ![Me](.img/Zero.png)
 </center>
 
 
