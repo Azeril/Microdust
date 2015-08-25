@@ -8,7 +8,7 @@ url: "http://azeril.me"
 
 # About/contact
 author:
-  name:  Azeril
+  name: "Azeril"
   email: azeril@live.cn
 
 # Data
@@ -21,8 +21,9 @@ facebook_username:  Azeril_Lapland
 weibo_username: Azeril  
 zhihu_username: Azeril  
 
-
-# Build settings
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
@@ -30,8 +31,15 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 relative_permalinks: true
 
-# use Github Flavored Markdown !important
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Shanghai
 
 # Defaults for posts
 defaults:
@@ -51,3 +59,11 @@ comments :
     short_name : lapland
   disqus :
       short_name : Azeril
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
