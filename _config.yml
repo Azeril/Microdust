@@ -1,5 +1,5 @@
 # Site settings
-title: Microdust 微尘
+title: Microdust
 header-img: img/seagulls.jpg
 tagline: "「在遙遠的地方 一切虔誠終必相遇」"  
 description: "明朝即長路 惜取此時心"  
@@ -49,7 +49,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: 
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
