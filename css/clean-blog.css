@@ -75,11 +75,11 @@ hr.small {
   }
 }
 .post-container a {
-  color: #00d590;
+  color: #4da6ff;
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #00c4ee;
+  color: #6bb4bf;
 }
 .post-container ul,
 .post-container ol {
@@ -251,7 +251,7 @@ hr.small {
   }
 }
 .intro-header .post-heading h1 {
-  font-size: 30px;
+  font-size: 27px;
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -270,14 +270,14 @@ hr.small {
   font-family: 'Lora', 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 17px;
 }
 .intro-header .post-heading .meta a {
   color: white;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   .intro-header .post-heading .subheading {
     font-size: 30px;
