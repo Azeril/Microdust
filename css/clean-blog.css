@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
-  line-height: 1.7;
+
   line-height: 1.1;
   font-weight: 800;
 }
@@ -23,7 +23,7 @@ h1 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 a {
   color: #404040;
@@ -52,8 +52,8 @@ blockquote p {
   select {
     -webkit-appearance: none;
     margin-top: 15px;
-    color: #337ab7;
-    border-color: #337ab7;
+    color: #44bff2;
+    border-color: #44bff2;
     padding: 0em 0.4em;
     background: white;
   }
@@ -75,7 +75,7 @@ hr.small {
   }
 }
 .post-container a {
-  color: #337ab7;
+  color: #00d590;
 }
 .post-container a:hover,
 .post-container a:focus {
@@ -204,7 +204,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0px;
-  /* 0 on mobile, modify by Hux */
+  /* 0 on mobile, changed the setting*/
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
@@ -247,7 +247,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 65px;
   }
 }
 .intro-header .post-heading h1 {
@@ -308,7 +308,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  color: #808080;
+  color: #4CD5F3;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
@@ -513,7 +513,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-/* Hux add tags support */
+/* tags support */
 .tags {
   margin-bottom: -5px;
 }
@@ -631,7 +631,7 @@ body {
   }
 }
 /* Tags support End*/
-/* Hux make all img responsible in post-container */
+/* Make imgs responsible in post-container */
 .post-container img {
   display: block;
   max-width: 100%;
@@ -641,7 +641,7 @@ body {
 .post-container img.shadow {
   box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;
 }
-/* Hux Optimize UserExperience */
+/* Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: inherit;
@@ -649,7 +649,7 @@ body {
 .navbar-default .navbar-toggle:active {
   background-color: #ddd;
 }
-/* Hux customize Style for navBar button */
+/* Customize Style for navBar button */
 .navbar-default .navbar-toggle {
   border-color: transparent;
   padding: 14px 11px;
