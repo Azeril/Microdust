@@ -8,9 +8,6 @@ header-img: "img/plane.jpg"
 ### About me, about Azeril...
 
 
-<figure>
-    <img src="img/Zero.png">
-</figure> 
 
 Ehhhh...I know it's not a good question.
 
@@ -20,7 +17,6 @@ My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Fa
 
 ——Azeril
 
-
-<figure>
-    <a href="{{ site.url }}/img/Zero.png"><img src="{{ site.url }}/img/Zero.png"></a>
-</figure>
+<center>
+    ![Me](/img/Zero.png)
+</center>
