@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://azeril.me"  
 
 # About/contact
-author: "Azeril"
+author: 
   name: "Azeril"
   email: azeril@live.cn
 
@@ -42,14 +42,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: ""
+      author: "Azeril"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : lapland
+    short_name : Azeril
   disqus :
       short_name : Azeril
 
