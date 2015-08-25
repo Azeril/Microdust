@@ -7,6 +7,9 @@ header-img: "img/plane.jpg"
 
 ### About me, about Azeril...
 
+<center>
+    ![Me](img/Zero.png)
+</center>
 
 
 Ehhhh...I know it's not a good question.
@@ -17,6 +20,3 @@ My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Fa
 
 ——Azeril
 
-<center>
-    ![Me](/img/Zero.png)
-</center>
