@@ -5,10 +5,11 @@ description: "嘿 你总算找到我啦"
 header-img: "img/plane.jpg"
 ---
 
-### Who is...Azeril?
+### About me, about Azeril...
+
 
 <figure>
-    <img src="http://dreamofbook.qiniudn.com/Az..png">
+    <img src="img/Zero.png">
 </figure> 
 
 Ehhhh...I know it's not a good question.
@@ -20,11 +21,6 @@ My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Fa
 ——Azeril
 
 
-<body>
-		<div class="container" style="margin:0;padding:0;width:100%;">
-			<header class="clearfix">
-				<img src="images/Zero.png">
-				<div class="tri"></div>
-			</header>	
-		</div>
-</body>
+<figure>
+    <a href="{{ site.url }}/img/Zero.png"><img src="{{ site.url }}/img/Zero.png"></a>
+</figure>
