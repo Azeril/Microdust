@@ -1,15 +1,16 @@
 # Site settings
 title: Microdust
 header-img: img/seagulls.jpg
-tagline: "在遙遠的地方 一切虔誠終必相遇"  
-description: "明朝即長路 惜取此時心"  
+tagline: "喵？"  
+description: "在遙遠的地方 一切虔誠終必相遇"  
 baseurl: ""
 url: "http://azeril.me"  
 
 # About/contact
-author: 
+owner: 
   name: "Azeril"
   email: azeril@live.cn
+  bio: "明朝即長路 惜取此時心"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
