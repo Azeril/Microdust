@@ -56,7 +56,7 @@ comments :
       short_name : Azeril
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: 
+google_analytics: UA-66863061-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
