@@ -156,7 +156,7 @@ My Favorite Fruit List:
 
 ## 引用
 
-引用。使用「>」，添加在每行的开头。
+引用(Blockquotes)。使用「>」，添加在每行的开头。
 
 两个注意点：
 
@@ -358,3 +358,5 @@ dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic
 1. [献给写作者的 Markdown 新手指南_简书](http://www.jianshu.com/p/q81RER)  
 2. [Markdown 语法说明_WowUbuntu](http://wowubuntu.com/markdown/#editor)  
 3. [Markdown语法说明（详解版）_图灵社区](http://www.ituring.com.cn/article/504)  
+4. [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
+
