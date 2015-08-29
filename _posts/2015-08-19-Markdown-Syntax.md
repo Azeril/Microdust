@@ -8,7 +8,7 @@ description: 这是一份基本版的 Markdown 语法清单
 
 ## Markdown 概述
 
-博文正文一般使用 Markdown 语法写作。当然，用 txt 格式也可以，但查看起来会很丑很丑...
+博文正文一般使用 Markdown 语法写作。当然，用 txt 格式也可以，但查看起来会很丑很丑……
 
 Markdown 语法是对纯文本格式的强化，能使文本显示得更清晰、有条理。但它依旧算是简单的文本，很容易修改和扩展，常用于快速写作之中。
 
@@ -68,17 +68,17 @@ Markdown 格式的简洁特性、兼容性好，使之能快速转换为各种�
 # 这是一级标题  
 ## 俺，二级标题  
 ### 我是三级标题  
-#### 人家只是个四级标题...  
+#### 人家只是个四级标题……  
 ##### 更小的我，五级标题 XD 
-
+###### Github 支持的最小的可以我（哪里冒出来的）
 *** 
 
 ## 换行
 
 Markdown 语法下，换行的方式有：
 
-1. 隔行换行，也就是连续敲击两下「Return」键，再开始写下一段；
-2. 在一行末尾添加两个空格符，而后敲击一下「Return」，开始写下一段。
+1. 隔行换行。连续敲击两下「Return」键，再开始写下一段；
+2. 在行末添加两个空格符，而后「Return」（为了显示清晰），开始写下一段。
 
 ## 强调标记
     
@@ -96,13 +96,6 @@ Markdown 语法下，换行的方式有：
 
 这是 **强调**
 
-还有一种强调方式是为文字段添加深色背景框。将文字夹在「`」中间。
-
-显示效果如下：
-
-这是加深背景色框的`字符`。
-
-
 ## 分割线
     
     *** 加分割线
@@ -117,7 +110,13 @@ Markdown 语法下，换行的方式有：
 
 ## 列表
 
-列表分无序列表合有序列表两类，前者以「*」、「-」开头，后者以数字「1」开头。在每个符号后输入内容完成，「Return」换行，会自动补全下一行的符号，只要继续输入内容就行。
+列表分无序列表合有序列表两类，前者以「*」、「-」开头，后者以数字「1」开头。
+
+三个注意点：
+
+1. 在输入字符前，应先空一行；
+2. 符号与内容之间，须空一个空格符，列表才能生效；
+3. 第一行内容输入完成，换行会自动补全下一行的开头符号（有序列表数字递增，无序列表符号不变），接下去只需继续输下一行内容，以此类推。
 
 无序列表：
 
@@ -133,7 +132,7 @@ Markdown 语法下，换行的方式有：
     - English
     - Japanese
     - Chinese
-    ……
+    - ……
 
 显示效果均如下：
 
@@ -168,7 +167,7 @@ My Favorite Fruit List:
 两个注意点：
 
 1. 「>」的上一行，必须为空行；
-2. 「>」与其后紧跟的第一个字之间有无空格不影响效果。
+2. 「>」与其后紧跟的第一个字之间有无空格符不影响效果（不过建议加一个）。
 
 显示效果如下：
 
@@ -205,15 +204,17 @@ My Favorite Fruit List:
 
 如果是想嵌套引用，像这样：
 
->浙江
->>杭州
->>>西湖
+> 浙江
+>> 杭州
+>>> 西湖
+>>>> 湖心亭
 
 语法如下，每行多添加一个「>」符号，再输入文字内容即可：
 
     > 浙江
     >> 杭州
     >>> 西湖
+    >>>> 湖心亭
 
 
 ## 代码区
@@ -240,7 +241,34 @@ My Favorite Fruit List:
     我是你一块扣肉  
     你是那梅菜扣住你手  
 
-这里的方法是首行开头缩进四个空格符（或敲一下 tab 键，效果一致）。
+这里的方法是首行开头缩进四个空格符，或敲一下 tab 键（制表符键）。
+
+还有一个方法。连续三个反引号「`」组成的前后两行，将内容包裹起来。
+
+
+显示效果如下：
+
+```
+这又是一个代码区块
+```
+
+在代码区块中，Markdown 语法一般都不会被转换，这也是为什么前面的很多例子都是先用代码区展示的缘故。不然这样一篇以 Markdown 语法解释 Markdown 语法的说明也无从谈起了。
+
+嗯...嗯？
+
+反引号的输入：英文输入模式下，点击键盘左上角的「~」键。
+
+
+## 标记
+
+标记小段代码（文字）
+
+显示效果如下：
+
+1. Use the `printf()` function.
+2. 这是加深背景色框的`字符`。
+
+这个例子中，为着重强调的代码段（或文字）添加了深色背景框。方法是用前后各一个反引号「`」将代码段或文字夹在中间。
 
 
 *** 
@@ -256,11 +284,31 @@ My Favorite Fruit List:
 
 以下为一个在 md 中添加网址的栗子：
 
-    [My Blog](http://azeril.me)
+    [Welcome to my blog](http://azeril.me)
 
 显示效果如下：
 
-[My Blog](azeril.me)
+[Welcome to my blog](http://azeril.me)
+
+第二个方式,利用脚注，将具体链接附加在脚注中，并用脚注将文字段落和网址联结起来。
+
+    [Click Google Search][Tags]
+
+    [Tags]: http://www.google.com "Google"
+
+显示效果如下：
+
+[Click Google Search][Tags]
+
+[Tags]: http://www.google.com "Google"
+
+或者，也可以使用「<」、「>」这样的尖角符号来将一些短链接用 Markdown 语法实现类似的可点击链接效果。
+
+    <http://www.google.com>
+
+显示效果如下：
+
+<http://www.google.com>
 
 
 ## 添加图片
@@ -286,13 +334,15 @@ My Favorite Fruit List:
 
 ![Pic_Sample](http://7s1rzi.com1.z0.glb.clouddn.com/Pic_Sample.jpg)
 
-想要在页面中并排插入多张图片（两张或三张并排显示）或想要将插入的图片居中显示，单纯依靠 Markdown 语法是无法搞定的。这时，就需要借助 HTML 语言。这里提供几个简单的模板，在插入图片时可以套用。
+想要在页面中并排插入多张图片（两张或三张并排显示）或想要将插入的图片居中显示，或者是类似固定显示图片的宽度与高度，目前依靠 Markdown 语法还无法实现。
+这时，借助 HTML 语言就可以搞定。
+
 
 以下，可以仅看添加图床图片的，减少认知负荷。
 
-### 添加图床图片
+### 图片与图床
 
-说到图床，图床是第三方服务托管个人上传图片，并提供图片外链，让我们在写博客文章时使用的方式。
+图床是第三方服务托管个人上传图片，并提供图片外链，让我们在写博客文章时使用的方式。
 
 常用图床： 
 
@@ -304,12 +354,21 @@ My Favorite Fruit List:
 
 如果是单纯插入来自图床的图片外链：
 
+    <center>
+    <img src="http://dreamofbook.qiniudn.com/Zero.png">
+    <center>
+    
+
 单张居中显示：
 
     <figure>
         <img src="http://xxx.jpg">
     </figure> 
-    
+
+<center>
+<img src="http://dreamofbook.qiniudn.com/Zero.png">
+
+
 两张并排显示：
 
     <figure class="half">
@@ -384,4 +443,4 @@ dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic
 2. [Markdown 语法说明_WowUbuntu](http://wowubuntu.com/markdown/#editor)  
 3. [Markdown语法说明（详解版）_图灵社区](http://www.ituring.com.cn/article/504)  
 4. [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
-
+* [Markdown - Wikiwand](https://www.wikiwand.com/zh/Markdown)
