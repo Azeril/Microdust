@@ -358,16 +358,19 @@ My Favorite Fruit List:
 
 如果是单纯插入来自图床的图片外链：
 
+单张居中显示：
+
     <center>
     <img src="http://dreamofbook.qiniudn.com/Zero.png">
-    <center>
     
 
-单张居中显示：
+
 
     <figure>
         <img src="http://xxx.jpg">
     </figure> 
+
+效果如下：
 
 <center>
 <img src="http://dreamofbook.qiniudn.com/Zero.png">
