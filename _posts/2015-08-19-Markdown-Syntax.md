@@ -363,8 +363,7 @@ My Favorite Fruit List:
     <center>
     <img src="http://dreamofbook.qiniudn.com/Zero.png">
     
-
-
+    OR
 
     <figure>
         <img src="http://xxx.jpg">
@@ -372,9 +371,9 @@ My Favorite Fruit List:
 
 效果如下：
 
-<center>
+<figure>
 <img src="http://dreamofbook.qiniudn.com/Zero.png">
-
+</figure> 
 
 两张并排显示：
 
