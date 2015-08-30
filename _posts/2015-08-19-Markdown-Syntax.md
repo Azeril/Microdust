@@ -204,10 +204,14 @@ My Favorite Fruit List:
 
 如果是想嵌套引用，像这样：
 
->浙江  
->>杭州  
->>>西湖  
->>>>湖心亭  
+> 浙江  
+>> 杭州  
+>>> 西湖  
+>>>> 湖心亭  
+
+博客默认的 Markdown 工具有点问题，效果如下图：
+
+![嵌套引用](http://i1381.photobucket.com/albums/ah234/Azeril_Lapland/Screen%20Shot%202015-08-30%20at%209.26.17%20PM_zpsg0ojze8c.png)
 
 语法如下，每行多添加一个「>」符号，再输入文字内容即可（每行行尾记得添两个空格符）：
 
