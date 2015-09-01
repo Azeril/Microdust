@@ -198,7 +198,7 @@ description: 对于工具的探索，进一步让自己可以脱离预设的局�
 参考资料及扩展阅读：
 
 * [有哪些出国旅行必备的实用 App？ - 知乎](http://www.zhihu.com/question/24165918)
-* * [一些你可能用到的意大利生活 iOS App](http://www.douban.com/group/topic/37505128/)
+* [一些你可能用到的意大利生活 iOS App](http://www.douban.com/group/topic/37505128/)
 * [App Store 上有哪些比较好的英语学习应用值得推荐？ - 知乎](http://www.zhihu.com/question/19895129)
 * [哪些 iOS 应用让你用了很满意并能提高生活质量？ - 知乎](http://www.zhihu.com/question/22566396)
 * [有哪些比较实用又有逼格的 App？ - 知乎](http://www.zhihu.com/question/30895291)
