@@ -1,3 +1,10 @@
+---  
+layout: post  
+title: iOS App 优选清单  
+categories: [blog ]  
+tags: [iOS, App ]
+description: 对于工具的探索，进一步让自己可以脱离预设的局限，前进  
+---  
 
 ## 即时通讯
 
