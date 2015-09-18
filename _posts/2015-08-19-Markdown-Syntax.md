@@ -563,7 +563,7 @@ dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic
 愉快。
 
 
-## Markdown 语法扩展阅读
+## 参考文档及扩展阅读
 
 1. [献给写作者的 Markdown 新手指南_简书](http://www.jianshu.com/p/q81RER)  
 2. [Markdown 语法说明_WowUbuntu](http://wowubuntu.com/markdown/#editor)  
