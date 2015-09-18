@@ -55,7 +55,7 @@ Markdown 格式的简洁特性、兼容性好，使之能快速转换为各种�
 
 关于语法，让我们先从在文中起到分清区块、梳理逻辑关系的标题说起：
 
-## 各级标题：
+## 标题
 
     # 一级标题
     ## 二级标题
@@ -110,13 +110,14 @@ Markdown 语法下，换行的方式有：
 
 ## 列表
 
-列表分无序列表合有序列表两类，前者以「*」、「-」开头，后者以数字「1」开头。
+列表分无序列表合有序列表两类，前者以「*」、「-」、「+」开头，后者以阿拉伯数字「1」开头。
 
 三个注意点：
 
-1. 在输入字符前，应先空一行；
-2. 符号与内容之间，须空一个空格符，列表才能生效；
-3. 第一行内容输入完成，换行会自动补全下一行的开头符号（有序列表数字递增，无序列表符号不变），接下去只需继续输下一行内容，以此类推。
+1. 如果前面有内容，在输入字符前，应先空一行；
+2. 符号与内容之间，须隔一个空格符，列表模式才能生效；
+3. 第一行内容输入完成，换行会自动补全下一行的开头符号（有序列表数字递增，无序列表符号不变），接下去只需继续输下一行内容，以此类推；
+4. 多层级列表，为美观也为减少出错考虑，注意同级列表符号的统一和上下对齐。
 
 无序列表：
 
@@ -158,11 +159,45 @@ My Favorite Fruit List:
 2. Apple
 3. Banana
 
+多层级列表：
+
+    两都名胜
+    
+    - 南京
+      + 玄武湖
+      + 中山陵
+      + 鸡鸣寺
+    - 杭州
+      + 西湖
+        * 苏堤
+        * 湖心亭
+        * 太子湾
+      + 九溪
+      + 灵隐
+
+注：此处的几个符号作用都是一样的，不同层级符号有所区别只为显示美观。日常使用，请每一级的符号一致。
+
+显示效果如下：
+      
+两都名胜
+    
+- 南京
+    + 玄武湖
+    + 中山陵
+    + 鸡鸣寺
+- 杭州
+    + 西湖
+      * 苏堤
+      * 湖心亭
+      * 太子湾
+    + 九溪
+    + 灵隐
+
 *** 
 
-## 引言
+## 引用
 
-也即，引用。使用「>」，添加在每行的开头。
+引用。使用「>」，添加在每行的开头。
 
 两个注意点：
 
@@ -253,10 +288,10 @@ My Favorite Fruit List:
 显示效果如下：
 
 ```
-这又是一个代码区块
+这是另一个代码区块
 ```
 
-在代码区块中，Markdown 语法一般都不会被转换，这也是为什么前面的很多例子都是先用代码区展示的缘故。不然这样一篇以 Markdown 语法解释 Markdown 语法的说明也无从谈起了。
+在代码区块中，Markdown 语法不会被转换，这也是为什么前面很多 Markdown 语法的例子能在代码区展示出来的缘故。不然这样一篇以 Markdown 语法解释 Markdown 语法的说明也无从谈起了。
 
 嗯...嗯？
 
@@ -265,28 +300,39 @@ My Favorite Fruit List:
 
 ## 标记
 
-标记小段代码（文字）
+标记小段代码（文字）。为着重强调的内容添加深色背景框，在内容前后各添一个反引号「`」，将代码段或文字夹在中间即可实现。
 
 显示效果如下：
 
 1. Use the `printf()` function.
 2. 这是加深背景色框的`字符`。
 
-这个例子中，为着重强调的代码段（或文字）添加了深色背景框。方法是用前后各一个反引号「`」将代码段或文字夹在中间。
-
-
 *** 
 
 ## 网址链接
 
+### 自动链接
+
+使用「<」、「>」这样的尖角符号来将网址用 Markdown 语法自动实现可点击链接的效果。
+
+    <http://www.google.com>
+
+显示效果如下：
+
+<http://www.google.com>
+
+### 网址链接
+
+至于网址链接的基本格式，应该是这样：
+
     [Link Name](Link) 
 
-这是网址链接的基本格式。
+构成为：
 
 * 一个方括号，添加图片的描述文字
 * 一个括号，添加图片网址
 
-以下为一个在 md 中添加网址的栗子：
+以下为一个网址的栗子：
 
     [Welcome to my blog](http://azeril.me)
 
@@ -294,7 +340,9 @@ My Favorite Fruit List:
 
 [Welcome to my blog](http://azeril.me)
 
-第二个方式,利用脚注，将具体链接附加在脚注中，并用脚注将文字段落和网址联结起来。
+### 索引链接
+
+具体描述后添加超链接（数字为序号或英文为主），在文字段落外关联具体网址，实现可跳转效果。
 
     [Click Google Search][Tags]
 
@@ -305,15 +353,6 @@ My Favorite Fruit List:
 [Click Google Search][Tags]
 
 [Tags]: http://www.google.com "Google"
-
-或者，也可以使用「<」、「>」这样的尖角符号来将一些短链接用 Markdown 语法实现类似的可点击链接效果。
-
-    <http://www.google.com>
-
-显示效果如下：
-
-<http://www.google.com>
-
 
 ## 添加图片
 
@@ -333,6 +372,25 @@ My Favorite Fruit List:
 ![Instagram Pic](http://i.imgur.com/UKhrRrK.jpg)
 
 *** 
+## 扩展阅读
+
+基于 Markdown 的 HTML 语言运用。
+
+HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯依靠 MD 语法暂时无法实现的功能和页面显示效果。
+
+### 网址链接
+
+页面内跳转链接。利用 HTML 语法制作 Markdown 长文的可跳转目录。分两部分，前为具体条目信息，后边则指向内容的位置（代码段放在页面的哪里，点击索引条目后就跳转到哪里）。
+
+范例语法如下：
+
+    [Line](#A)
+
+	<a name="A"></a>
+
+[Line](#A)
+
+<a name="A"></a>
 
 ## 添加图片(进阶版)
 
@@ -448,6 +506,7 @@ dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic
 
 1. [献给写作者的 Markdown 新手指南_简书](http://www.jianshu.com/p/q81RER)  
 2. [Markdown 语法说明_WowUbuntu](http://wowubuntu.com/markdown/#editor)  
-3. [Markdown语法说明（详解版）_图灵社区](http://www.ituring.com.cn/article/504)  
+3. [Markdown 语法说明（详解版）_图灵社区](http://www.ituring.com.cn/article/504)  
 4. [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 * [Markdown - Wikiwand](https://www.wikiwand.com/zh/Markdown)
+* [Markdown 写作浅谈 - 阳志平的网志](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
