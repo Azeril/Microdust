@@ -313,7 +313,7 @@ My Favorite Fruit List:
 
 ### 自动链接
 
-使用「<」、「>」这样的尖角符号来将网址用 Markdown 语法自动实现可点击链接的效果。
+使用「<」、「>」这样的尖角符号，url/email 在 Markdown 下可自动实现可点击链接的效果。
 
     <http://www.google.com>
 
@@ -342,7 +342,7 @@ My Favorite Fruit List:
 
 ### 索引链接
 
-具体描述后添加超链接（数字为序号或英文为主），在文字段落外关联具体网址，实现可跳转效果。
+内容描述后添加超链接（数字为序号或英文为主），在文字段落外关联具体网址，实现可跳转效果。
 
     [Click Google Search][Tags]
 
@@ -394,13 +394,14 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 
 ## 添加图片(进阶版)
 
+
+
 ![Pic_Sample](http://7s1rzi.com1.z0.glb.clouddn.com/Pic_Sample.jpg)
 
-想要在页面中并排插入多张图片（两张或三张并排显示）或想要将插入的图片居中显示，或者是类似固定显示图片的宽度与高度，目前依靠 Markdown 语法还无法实现。
-这时，借助 HTML 语言就可以搞定。
+在页面中，要并排插入多张图片（两张或三张并排显示）或将插入图片居中显示，又或者是类似固定显示图片的宽度与高度，目前依靠 Markdown 语法还无法实现。
+这时，调用 HTML 语法就可以轻松搞定。
 
-
-以下，可以仅看添加图床图片的，减少认知负荷。
+以下，可以仅看添加图床图片的那部分，减少认知负荷。
 
 ### 图片与图床
 
@@ -433,6 +434,15 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 <img src="http://dreamofbook.qiniudn.com/Zero.png">
 </figure> 
 
+固定图片宽度/高度：
+
+    <img src="http://xxx.jpg" title="Logo" width="100" />
+
+宽度是 Width，高度是 High。Title 为图片描述。
+
+效果如下：
+
+<img src="http://dreamofbook.qiniudn.com/Zero.png" title="Logo" width="100" />
 
 两张并排显示：
 
