@@ -569,5 +569,5 @@ dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic
 2. [Markdown 语法说明_WowUbuntu](http://wowubuntu.com/markdown/#editor)  
 3. [Markdown 语法说明（详解版）_图灵社区](http://www.ituring.com.cn/article/504)  
 4. [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
-* [Markdown - Wikiwand](https://www.wikiwand.com/zh/Markdown)
-* [Markdown 写作浅谈 - 阳志平的网志](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
+5. [Markdown - Wikiwand](https://www.wikiwand.com/zh/Markdown)
+6. [Markdown 写作浅谈 - 阳志平的网志](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
