@@ -22,18 +22,19 @@ Markdown 格式的简洁特性、兼容扩展性颇佳，使之能快速转换�
 常见及常用的 Markdown 编辑器很多，比如：
 
 * [MacDown](http://macdown.uranusjr.com/)
-* [Mou](http://25.io/mou/)
 * [Typora](http://typora.io/)  
 
 此外还有（收费为主）：
 
 * [Scrivener](http://www.literatureandlatte.com/scrivener.php)
 * [Typed](http://realmacsoftware.com/typed/)
-* [iA Writer for Mac](https://ia.net/writer/mac/)
+* [
+](https://ia.net/writer/mac/)
 * [Byword](http://bywordapp.com/)
 * [Marked 2](http://marked2app.com/)
 * [Ulysses](http://www.ulyssesapp.com/)
-* [Marboo](http://marboo.io/)
+* [Marboo](http://marboo.io/) 
+* [Mou](http://25.io/mou/)
 
 以及支持 Markdown 的优质在线编辑器：
 
