@@ -2,14 +2,20 @@
 
 This is a blog designed by Azeril. The blog is live at [azeril.me](http://azeril.me/).
 
-## Tools used
+## Thanks
+
+The blog used many tool/service,many thanks to:
 
 * [Github](https://github.com/), all the data based on;
+* [Git](https://git-scm.com/), blogs and code files version control system;
 * [Jekyll](http://jekyllrb.com/), a static site generator;
 * [Clean Blog Theme](http://startbootstrap.com/template-overviews/clean-blog/), a theme by Start Bootstrap;
-* [Git](https://git-scm.com/), blogs and code files version control system.
+* [Markdown](https://en.wikipedia.org/wiki/Markdown), a beautiful lightweight markup language.
+* [DNSPod](https://www.dnspod.cn/), the DNS service provider who surport the domain name resolution;
+* [Duoshuo](http://duoshuo.com/), a socialization comments plugin.
+* [Google](http://google.com), the one who tell me how to make it.
+* …
 
-and so on. 
 
 ## Just write
 
