@@ -1,4 +1,10 @@
-
+---
+layout: post  
+title: Jekyll 博客主题精选  
+categories: [blog ]  
+tags: [Tech, ]  
+description: 「标准是好用且好看 」   
+---
 
 ## What&Why
 
