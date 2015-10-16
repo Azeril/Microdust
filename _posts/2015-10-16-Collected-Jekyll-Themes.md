@@ -183,7 +183,7 @@ Description: 以图片和文章展示为核心的主题。并不算特别规范�
 
 ### Feeling Responsive
 
-![Feeling Responsive](../img/Themes/Feeling-Responsive.jpg)
+![Feeling Responsive](/img/Themes/Feeling-Responsive.jpg)
 
 Star：⭐️⭐️⭐️⭐️  
 
