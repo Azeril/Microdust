@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: 打造你的第一个 GitHub Pages 个人博客（小白教程）  
+title: 打造你的 GitHub Pages 专属博客（小白教程）  
 categories: [blog ]  
 tags: [Tech, ]  
 description: 「标准是好用且好看 」   
