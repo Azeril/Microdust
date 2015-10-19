@@ -292,7 +292,7 @@ Sample.md 文档后填写相应的内容，开始写博文。Dropbox 文档可�
 
 登录 GitHub gh Pages 博客项目主页。点击主目录中的 _posts 文件夹。然后点击「+」，创建新博文。
 
-![GitHubWeb](http://dreamofbook.qiniudn.com/GithubWeb.jpg)
+![](http://dreamofbook.qiniudn.com/GithubWeb.jpg)
 
 博文结构还是一样：
 
