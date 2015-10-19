@@ -3,7 +3,7 @@ layout: post
 title: 打造你的 GitHub Pages 专属博客（小白教程）  
 categories: [blog ]  
 tags: [Tech, ]  
-description: 「标准是好用且好看 」   
+description: 「快速打造一个可心的独立博客~！」   
 ---
 
 ## Build Your First Jekyll Blog
@@ -43,7 +43,7 @@ Jekyll 是一个静态站点生成器，基于 ruby 语言编写。结合 Markdo
 
 因为在主题模板方面吃过好多亏了...所以亲自上手打造了一个精选的博客主题模板库。具体请探索——
 
-![BlogThemes](img/Themes/BlogThemesX.jpg)
+![BlogThemes](/img/Themes/BlogThemesX.jpg)
 
 [Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/2015/10/16/Selected-Collection-of-Jekyll-Themes/)
 
@@ -166,13 +166,13 @@ GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户�
 
 打开 GitHub 的菜单（切换到 GitHub 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 GitHub 账户。
 
-![GitHubID](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubID.png)
+![GitHubID](http://dreamofbook.qiniudn.com/GitHubID.png)
 
 ### Clone / Create
 
 Clone 或创建个人博客项目
 
-![GitHub for Mac](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic1.png)
+![GitHub for Mac](http://dreamofbook.qiniudn.com/GitHubPic1.png)
 
 在登录后，将已经 Fork 的 GitHub Pages 项目从 GitHub （云端）中， Clone 到本地来，以便于修改。如果已经下载到本地，可以 Create 后将仓库文档拖放进去。
 
@@ -186,7 +186,7 @@ Clone 或创建个人博客项目
 
 在修改文件（修改文件和添加博文的方法，将在后边说明。）完成后，GitHub 客户端会将文件的修改细节（包括位置和次数）显示出来。由于文件是在本地修改的，因而还需要提交到 GitHub 的服务器上，修改才会最终生效。
 
-![GitHub for Mac2](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic2.png)
+![GitHub for Mac2](http://dreamofbook.qiniudn.com/GitHubPic2.png)
 
 上图显示的就是提交的流程：
 
@@ -228,6 +228,11 @@ Markdown 文件的命名类型为「日期(20xx-xx-xx) + 主题(英文) + 格式
 如果不以这个标准格式命名，文档将无法解析（有的博客也可以，不过标题会默认为文件名，比如我的）。
 
 一般一个 Jekyll 博客，因为主题模板的差异，md 文件也都有些差别。但基本每一篇 Markdown 文档的开头（第一行都为「 ---」）都必须添加一段代码，用以将文档收录到博客以及标签系统中。
+
+所以，一般 md 文档的内容组成都是这样：
+
+* 博文代码
+* 正文
 
 ### About Markdown File
 
@@ -273,6 +278,31 @@ Markdown 文件的命名类型为「日期(20xx-xx-xx) + 主题(英文) + 格式
     ---
     正文...
 
+Sample.md 文档后填写相应的内容，开始写博文。Dropbox 文档可以预览时复制粘贴格式到本地的编辑器开始写。
+
+写好文档后将文档保存（修改）为「日期 + 标题」的模式，如：「2015-04-27-Like-Kissing.md」。
+
+然后将 md 文档复制或拖放到 _posts 文件夹里。在 GitHub for Mac 客户端 commit 和 sync，稍等片刻新添加的博文就会自动发布到博客里啦。
+
+## Publish Post With GitHub
+
+如何在网页端在线发布博文？
+
+除了利用 GitHub 客户端以外，还可以通过 GitHub 网站发布博文。这时，如果写作时使用图片，得借助图床，因为网页端无法上传图片。
+
+登录 GitHub gh Pages 博客项目主页。点击主目录中的 _posts 文件夹。然后点击「+」，创建新博文。
+
+![GitHubWeb](http://dreamofbook.qiniudn.com/GitHubWeb.jpg)
+
+博文结构还是一样：
+
+* 标题
+* 博文代码
+* 正文
+
+![](http://dreamofbook.qiniudn.com/GitHubWeb2.png)
+
+写完后，为本次创建文档的操作输入一段描述，而后确认提交就发布啦。
 
 # Appendix I 附录 I
 
