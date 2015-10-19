@@ -255,6 +255,7 @@ Description: 异常简约的一个主题，白底黑字。优势是加载速度�
 ![Balzac For Jekyll](/img/Themes/Balzac-for-Jekyll.jpg)
 
 Created by [Cole Townsend](https://github.com/ColeTownsend)
+
 Star：⭐️⭐️⭐️  
 
 Description: 简约，也可以启用大图视窗作为博客主界面。
