@@ -43,6 +43,8 @@ Jekyll 是一个静态站点生成器，基于 ruby 语言编写。结合 Markdo
 
 因为在主题模板方面吃过好多亏了...所以亲自上手打造了一个精选的博客主题模板库。具体请探索——
 
+![BlogThemes](img/Themes/BlogThemesX.jpg)
+
 [Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/2015/10/16/Selected-Collection-of-Jekyll-Themes/)
 
 可以从中找自己合意的，然后去对应的 GitHub 仓库 Fork/Clone 就行。
@@ -140,29 +142,136 @@ yourname 是指你的 GitHub Name，此处命名形式 yourname 必须与你的�
 
 博客标题、博主 ID 一类都可以直接改。博客 favicon、博主 avatar 一类，还需要到 images 文件夹替换图片和配置文件的对应文件名。注意原图的尺寸，尽量与模板中的原图保持一致。
 
-[damotou.com](http://www.damotou.com/index.php)  在线制作（转换）用于 favicon（还不知道这是什么？瞧一下自己 Chrome 浏览器书签页左侧的小图标） 的 icon 图片，选择 32*32 像素的图片下载；
+
+* [TextMate](https://macromates.com/) / [Sublime Text](http://www.sublimetext.com/) 用于打开 yml/THML 等文件并进行修改。Windows 用户就只有后者可选了...
+* [damotou.com](http://www.damotou.com/index.php)  在线制作（转换）用于 favicon（还不知道这是什么？瞧一下自己 Chrome 浏览器书签页左侧的小图标） 的 icon 图片，选择 32*32 像素的图片下载；
+* CNAME 文件，如果有独立域名请修改该文件；如果没有，则删掉该文件；如果没有但想要，请看附录。
 
 
+## Introduction GitHub Desktop
 
-## Create a new post
+磨刀不误砍柴工，先来了解一下 GitHub 客户端的使用吧。
+
+### Install Git
+
+很多教程谈及 Jekyll 时多半要涉及 Jekyll 本地环境的搭建，但如果不需要频繁预览，并不是必须的。在更新博客的思路上，如果要专业地谈论使用，也多半要挖新坑了——Git 语言的使用。
+
+GitHub 官方推出的 git 客户端，虽然功能简单，但就博客维护的日常提交和同步变动等功能来说，已足够我们使用。
+
+GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户端版（区别于命令行工具）。
+
+安装完成后登陆个人账户。立马就开始管理和更新自己的博客啦。
+
+### Login GitHub Account
+
+打开 GitHub 的菜单（切换到 GitHub 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 GitHub 账户。
+
+![GitHubID](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubID.png)
+
+### Clone / Create
+
+Clone 或创建个人博客项目
+
+![GitHub for Mac](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic1.png)
+
+在登录后，将已经 Fork 的 GitHub Pages 项目从 GitHub （云端）中， Clone 到本地来，以便于修改。如果已经下载到本地，可以 Create 后将仓库文档拖放进去。
+
+这里再次提醒，gh Pages 项目一般的命名都是「GitHub Name + GitHub.io」形式。不然无法作为个人博客存在。
+
+### Commit & Sync 
+
+提交和同步博客的修改
+
+下载完项目后，可以在 Finder 里打开，然后进行查看、修改文档、添加博文之类的操作。
+
+在修改文件（修改文件和添加博文的方法，将在后边说明。）完成后，GitHub 客户端会将文件的修改细节（包括位置和次数）显示出来。由于文件是在本地修改的，因而还需要提交到 GitHub 的服务器上，修改才会最终生效。
+
+![GitHub for Mac2](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic2.png)
+
+上图显示的就是提交的流程：
+
+    0. 选择相应的项目（这是是博客项目）；
+    1. 如有修改，在 Description 填写说明（可以非常简要，但不能省略）；
+    2. 点击「Commit to master」，提交修改；
+    3. 点击右上角的「Sync」；
+    4. 文件同步完成，片刻后更新生效。
+
+## Introduction Markdown Syntax
+
+好了，前面提了这么多次 Markdown，也该简要介绍一下了。
+
+博文一般都使用 Markdown 语法写作。
+
+Markdown 语法是对纯文本格式的强化，能使文本显示得更清晰、有条理。但它依旧算是简单的文本，很容易修改和扩展，常用于快速写作之中。
+
+Markdown 格式的简洁特性，使之能快速转换为各种互联网上的常用格式，比如 HTML、Word、PDF 等，所以目前越来越常用。
+
+关于 Markdown 语法的细则，请参看 [Markdown 简明语法参考](http://azeril.me//blog/2015/08/19/Markdown-Syntax/)。
+ 
+嗷，内容太多？但实际用的过程中熟悉起来很快的。花一个小时掌握也差不多啦。
+
+
+## Create a new post 
 
 接下来我们要开始更新自己的第一篇博文啦。
 
 比较标准的 Jekyll 博客，博文都被放置于 _posts 文件夹中。文档格式为 markdown 或 HTML。当然一般书写 md 文档快捷得多。
 
+如果你打算删除掉这些并非自己所书写的 md 文档（「必须的！」），先熟悉一下这些文件大致的构造再删不迟。
+
+Markdown 文件的命名类型为「日期(20xx-xx-xx) + 主题(英文) + 格式（md/HTML）」。
+
+像这样：
+
+> 2015-04-27-Like-Kissing.md
+
+如果不以这个标准格式命名，文档将无法解析（有的博客也可以，不过标题会默认为文件名，比如我的）。
+
+一般一个 Jekyll 博客，因为主题模板的差异，md 文件也都有些差别。但基本每一篇 Markdown 文档的开头（第一行都为「 ---」）都必须添加一段代码，用以将文档收录到博客以及标签系统中。
+
+### About Markdown File
+
+一个栗子：
+
+代码类型如下：
+
+    ---
+    layout: post
+    title: 中文简要排版参考
+    categories: [blog ]
+    tags: [Chinese, Read, ]
+    description: 如何创造优美的阅读体验
+    ---
+
+这其中，
+
+* layout 一般不用改，这个博客默认归档在 Blog 目录下；
+* Title 一项是必须添加的；
+* Categories 可以换，但如果不是要分类，一般也不用管；
+* Tags 可以自己按照文章主题添加，也可以不加，不同的 Tags 直接用英文逗号加半角空格间隔开；
+* description 博文概述
+
+有些博客还有博文大图显示、开启或关闭博客评论功能、开启或关闭发布等功能，具体看模板。
 
 
-### Install Git
+所以有必要保存一份在本地，便于发布文章的时候能随时取用。
 
-很多教程谈及 Jekyll 时多半要涉及 Jekyll 本地环境的搭建，但如果不需要频繁预览，并不是必须的。在更新博客的思路上，如果要专业地谈论使用，也多半要挖新坑了——Git 语言的使用。但既然有 GitHub Desktop 这样的本地的有用户界面的 Git 应用，那也不妨直接拿来用，立马就开始更新自己的博客啦。
+以下则是一篇博文内容的栗子（另一个博客主题的模板）：
 
-GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户端版（区别于命令行工具）。
-
-安装完成后登陆个人账户。
-
-### Install TextMate or Sublime Text
-
-工欲善其事，必先利其器。介绍
+    ---
+    layout: post  
+    title: 夏天的烟花（作为标题）  
+    description:   
+    headline:     
+    categories: Blog（作为目录）  
+    headline:  
+    tags: 
+      - Photo（添加的第一个标签） 
+      - Instagram（添加的第二个标签，另起一行） 
+    comments: ture  
+    published: true  
+    ---
+    正文...
 
 
 # Appendix I 附录 I

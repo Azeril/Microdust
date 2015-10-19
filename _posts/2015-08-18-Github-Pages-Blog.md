@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Github 博客简明使用指南
+title: GitHub 博客简明使用指南
 categories: [blog ]
-tags: [Mac, Github, ]
-description:  Github 博客使用概述
+tags: [Mac, GitHub, ]
+description:  GitHub 博客使用概述
 ---
 
-Github Pages 是 Github 所提供的一个博客系统。现在使用这一服务的用户随着 Github 网站的壮大而益发普及开来。
+GitHub Pages 是 GitHub 所提供的一个博客系统。现在使用这一服务的用户随着 GitHub 网站的壮大而益发普及开来。
 
-让我们忽略 Github 被国内网友戏称为「世界上最大的同性（程序猿们）社交网站...」这样的事……
+让我们忽略 GitHub 被国内网友戏称为「世界上最大的同性（程序猿们）社交网站...」这样的事……
 
 ## 本文初衷
 
-关于 Github 博客的具体搭建，下次会专门写一篇博文。这次就先略过，只说使用。
+关于 GitHub 博客的具体搭建，下次会专门写一篇博文。这次就先略过，只说使用。
 
-说到这里，本文的前提也大致明确：这是一份 Github 博客使用说明。仅针对已 fork 并配置完模板（以 Jekyll 精确说是以 [HMFAYSAL Omega THeme](http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/) 这个博客模板为准），已是可用状态的博客。接下来，基本只需将现成的博客项目下载到本地，稍作修改即可开始写作及发布内容。
+说到这里，本文的前提也大致明确：这是一份 GitHub 博客使用说明。仅针对已 fork 并配置完模板（以 Jekyll 精确说是以 [HMFAYSAL Omega THeme](http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/) 这个博客模板为准），已是可用状态的博客。接下来，基本只需将现成的博客项目下载到本地，稍作修改即可开始写作及发布内容。
 
 好吧，这篇文章，是专门写给小鲤鱼的博客使用手册。
 
@@ -22,49 +22,49 @@ Github Pages 是 Github 所提供的一个博客系统。现在使用这一服�
 
 在正文开始之前，还要补充一句，虽然本文看起来有些复杂和繁琐（标题还如此让人望而生畏），但如果某人耐下性子看下去，还是很容易理解和玩转起来的啦。
 
-## Github Pages 博客相关服务及工具一览
+## GitHub Pages 博客相关服务及工具一览
 
-搭建一个基于 Github 的博客，一般会利用到一下的一些服务及工具（仅作了解，不需要深究）：
+搭建一个基于 GitHub 的博客，一般会利用到一下的一些服务及工具（仅作了解，不需要深究）：
 
-1. Github 知名代码托管平台。博客的所有文档都存放在 Github 的个人项目里。博客是用了其中的一个服务：Github Pages；
-2. Jekyll 基于 Github 的模板系统，可选取相关的主题作为自己的博客样式。初次之外，也可选用；
+1. GitHub 知名代码托管平台。博客的所有文档都存放在 GitHub 的个人项目里。博客是用了其中的一个服务：GitHub Pages；
+2. Jekyll 基于 GitHub 的模板系统，可选取相关的主题作为自己的博客样式。初次之外，也可选用；
 3. Markdown 写作博文时使用的文本语法，条理分明，易于掌握；
 4. Git 一种代码版本管理的程序，包括我们博客更新也是依赖于此；
 5. Godaddy.com / Gandi.net / NameCheap.com 购买个人域名的网站，前两个支持支付宝/银联，第三个只有双币信用卡才能购买；
 6. DNSPod 配置 DNS 解析服务的网站；
-7. Qiniu / imgur.com 托管博客图片的图床，当然图片较少时也可在 Github 项目里直接存放，但容量有些，只有200M，最好是图床托管，只把博客设置中有关的 博客 Logo/个人头像/博客主题图片放在 Github 项目里；
+7. Qiniu / imgur.com 托管博客图片的图床，当然图片较少时也可在 GitHub 项目里直接存放，但容量有些，只有200M，最好是图床托管，只把博客设置中有关的 博客 Logo/个人头像/博客主题图片放在 GitHub 项目里；
 8. Mou / MacDown / Typora Markdown 编辑器 写作博客时常备的写作工具，主要保存（使用）格式为 md；
 9. TextMate / Sublime Text 业界知名的编辑器，用于打开和编辑各类程序文档，在修改一些博客设定的文档时会用到；
-10. Github for Mac Github 的官方客户端.拥有图形界面 使用很傻瓜化 平时博客都可以通过客户端来发布和提交修改。
+10. GitHub for Mac GitHub 的官方客户端.拥有图形界面 使用很傻瓜化 平时博客都可以通过客户端来发布和提交修改。
 
-## Github for Mac 客户端使用说明
+## GitHub for Mac 客户端使用说明
 
-Github 客户端下载地址：[GitHub for Mac](https://desktop.github.com/)
+GitHub 客户端下载地址：[GitHub for Mac](https://desktop.GitHub.com/)
 
-在本地管理博客，我们需要用到 Github for Mac。这是一款由 Github 官方推出的一个 git 客户端，用于日常提交和同步项目变动。虽然这个客户端功能相对简单，但对于博客管理来说，已经足够我们使用。
+在本地管理博客，我们需要用到 GitHub for Mac。这是一款由 GitHub 官方推出的一个 git 客户端，用于日常提交和同步项目变动。虽然这个客户端功能相对简单，但对于博客管理来说，已经足够我们使用。
 
-使用 Github for Mac 需要登录自己的 Github 账户。
+使用 GitHub for Mac 需要登录自己的 GitHub 账户。
 
-### 登录 Github 账户
-打开 Github 的菜单（切换到 Github 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 Github 账户。
+### 登录 GitHub 账户
+打开 GitHub 的菜单（切换到 GitHub 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 GitHub 账户。
 
-![GithubID](http://7s1rzi.com1.z0.glb.clouddn.com/GithubID.png)
+![GitHubID](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubID.png)
 
 ### Clone 或 Add 个人博客项目
 
-![Github for Mac](http://7s1rzi.com1.z0.glb.clouddn.com/GithubPic1.png)
+![GitHub for Mac](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic1.png)
 
-在登录后，将已经 Fork 的 Github Pages 项目从 Github （云端）中， Clone 到本地来，以便于修改。
+在登录后，将已经 Fork 的 GitHub Pages 项目从 GitHub （云端）中， Clone 到本地来，以便于修改。
 
-博客项目一般的命名都是「个人 ID + github.io」形式。不然无法作为作为个人博客存在。
+博客项目一般的命名都是「个人 ID + GitHub.io」形式。不然无法作为作为个人博客存在。
 
 ### 提交和同步博客的修改
 
 下载完项目后，可以在 Finder 里打开，然后进行查看、修改文档、添加博文之类的操作。
 
-在修改文件（修改文件和添加博文的方法，将在后边说明。）完成后，Github 客户端会将文件的修改细节（包括位置和次数）显示出来。由于文件是在本地修改的，因而还需要提交到 Github 的服务器上，修改才会最终生效。
+在修改文件（修改文件和添加博文的方法，将在后边说明。）完成后，GitHub 客户端会将文件的修改细节（包括位置和次数）显示出来。由于文件是在本地修改的，因而还需要提交到 GitHub 的服务器上，修改才会最终生效。
 
-![Github for Mac2](http://7s1rzi.com1.z0.glb.clouddn.com/GithubPic2.png)
+![GitHub for Mac2](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic2.png)
 
 上图显示的就是提交的流程：
 
@@ -74,13 +74,13 @@ Github 客户端下载地址：[GitHub for Mac](https://desktop.github.com/)
     3. 点击右上角的「Sync」；
     4. 文件同步完成，片刻后更新生效。
 
-说完 Github for Mac 如何提交修改和同步了，咦，好像漏了什么？
+说完 GitHub for Mac 如何提交修改和同步了，咦，好像漏了什么？
 
 那我们回过来，说说我们刚才下载到本地的项目到底该如何处理吧——如何修改博客和添加博文。这是接下来要讲的。
 
-## Github Pages 项目文档说明
+## GitHub Pages 项目文档说明
 
-打开 clone 到本地的 Github 项目，一般目录里有以下类型的文件。 
+打开 clone 到本地的 GitHub 项目，一般目录里有以下类型的文件。 
 
 基础目录结构：
 
@@ -136,7 +136,7 @@ Markdown 编辑器（写博文时用到的写作应用）：
 
 博文的文件格式一般为 md(Markdown )格式。HTML 格式作为博文发布其实也可，但语法复杂，不利于写作，在此不具体说明。
 
-每一篇 Markdown 文档的开头（第一行为「 ---」）都必须添加一段代码，用以将文档收录到博客以及标签系统中。
+每一篇 Markdown 文档的开头（第一行都为「 ---」）都必须添加一段代码，用以将文档收录到博客以及标签系统中。
 
 代码类型如下：
 
@@ -185,19 +185,19 @@ Markdown 编辑器（写博文时用到的写作应用）：
 
 写好文档后将文档保存（修改）为「日期 + 标题」的模式，如：「2015-04-27-Like-Kissing.md」。
 
-然后将 md 文档复制或拖放到 _posts 文件夹里。在 Github for Mac 客户端 commit 和 sync，稍等片刻新添加的博文就会自动发布到博客里啦。
+然后将 md 文档复制或拖放到 _posts 文件夹里。在 GitHub for Mac 客户端 commit 和 sync，稍等片刻新添加的博文就会自动发布到博客里啦。
 
 ## 网页端在线发布博文
 
-除了利用 Github 客户端以外，我们还可以通过 Github 网站发布博文。这时，如果写作时使用图片，得借助图床，因为网页端无法上传图片。
+除了利用 GitHub 客户端以外，我们还可以通过 GitHub 网站发布博文。这时，如果写作时使用图片，得借助图床，因为网页端无法上传图片。
 
-登录 Github 网站。
+登录 GitHub 网站。
 
-找到自己的 gh-Pages 博客项目主页（对，就是 ID.github.io 命名的那只）。
+找到自己的 gh-Pages 博客项目主页（对，就是 ID.GitHub.io 命名的那只）。
 
 点击主目录中的 _posts 文件夹。然后点击「+」，创建新博文。
 
-![GithubWeb](http://dreamofbook.qiniudn.com/GithubWeb.jpg)
+![GitHubWeb](http://dreamofbook.qiniudn.com/GitHubWeb.jpg)
 
 博文结构还是一样：
 
@@ -205,7 +205,7 @@ Markdown 编辑器（写博文时用到的写作应用）：
 * 博文代码
 * 正文
 
-![](http://dreamofbook.qiniudn.com/GithubWeb2.png)
+![](http://dreamofbook.qiniudn.com/GitHubWeb2.png)
 
 写完后，为本次创建文档的操作输入一段描述，而后确认提交就发布啦。
 
