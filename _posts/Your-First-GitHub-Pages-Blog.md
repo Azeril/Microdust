@@ -6,30 +6,62 @@ tags: [Tech, ]
 description: 「标准是好用且好看 」   
 ---
 
-## About GitHub Pages
+## Build Your First Jekyll Blog
+
+GitHub 以当前世界最大、也是最流行的代码托管平台和程序员的社交平台闻名遐迩。官方在代码仓库的构建之外，也开放出 GitHub Pages 服务，方便程序员们发布相关说明文档，提供项目的相关资料。而 gh Pgaes 的美好之处在于，它有足以胜任成为一个独立博客的能耐。
+
+### About GitHub Pages
+
+关于 gh Pages 的特性，顺便归纳一下：
 
 * 编辑器与工具本地化，用合心意的应用软件书写和改造 blog；
-* 无需另行搭建服务器或购买空间，基于 GitHub 仓库搭建（有空间限制 300M 但够用）； 
-* 配置简单；
+* 无需另行搭建服务器或购买独立空间，一切基于 GitHub 仓库搭建（有空间限制 300M 但够用）； 
+* 配置方便，生效速度快；
 * 有丰富的博客主题可以尽情挑选；
 * 可绑定个人独立域名；
 * Markdown 标记语言书写；
 * 可本地和在线发布博文；
 * Git 对博客内容的版本控制；
 
-## About Jekyll
+缺点，当然，如果对于前述的名词都一头雾水，那么只能说，这个服务本身还是有不够友好的地方，需要你花些时间、费点力气去探索的。
 
-Jekyll是一个静态网站生成器，用ruby编写而成，结合了markdown、Liquid等技术，简化了静态网站的构建过程，配合disqus等技术，可以方便的生成具有简单动态功能的网站。
+但我必须说，一切都是值得的。
 
-当然你还可以运用一些预置的主题，做一些自定义的配置，以及自己定义主题增加模板配置文件、增加Blog挂件、加入Google Analytics、Disqus等等，同样可以将一个静态网站做的栩栩如生。
+### About Jekyll
 
+Jekyll 是一个静态站点生成器，基于 ruby 语言编写。结合 Markdown、CSS、Liquid 等技术，能快速搭建好博客，借助第三方的开源工具/服务，实现强大且完备的博客系统。
 
+此外，利用现成的开源主题（GitHub 上非常丰富），在添加或修改诸如评论系统、访问统计、主题页面等全方面自定义设定，也足以将一个主题模板打造成自己理想博客的样子。
+
+本文倾向于更为小白的方式，也就是基于现成的博客主题模板来打造出一个自己的独立博客。省却繁琐的环境搭建，工具配置过程，快速上手和部署，进而能快速完成。
+
+开始动手吧~
 
 ## Build Your Blog
 
+### Choose Your Favorite Blog Theme
+
+因为在主题模板方面吃过好多亏了...所以亲自上手打造了一个精选的博客主题模板库。具体请探索——
+
+[Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/2015/10/16/Selected-Collection-of-Jekyll-Themes/)
+
+可以从中找自己合意的，然后去对应的 GitHub 仓库 Fork/Clone 就行。
+
+每个精选主题，均包括：
+
+* 博客界面截图  
+* 创作者个人信息  
+* 主题描述  
+* 个人评分  
+* 可访问的博客站点地址 Live Demo  
+* 可直接 Fork 和配置的 GitHub 仓库源码地址。  
+
+
 ### Register GitHub 
 
-注册 [GitHub](https://github.com/) 并设置个人 ID，在个人的注册邮箱里确认注册，完成登陆。
+Jekyll Blog 基于 GitHub 平台，文档存放，后续修改博客设定以及添加博文也都是背靠 GitHub 这座大山。所以首先要拥有一个自己的 GitHub 账号。
+
+注册（免费方案即可） [GitHub](https://github.com/) 并设置个人 ID，在个人的注册邮箱里确认注册，完成登陆。
 
 ### Create A Repo
 
@@ -37,7 +69,12 @@ Jekyll是一个静态网站生成器，用ruby编写而成，结合了markdown�
 
 当然，对于已经下载的博客主题 git 压缩包，可以在网页版主页右上角（ID 头像边），点击「+」，Create New Repository，并通过客户端版将解压的仓库文件上传到该 Repo。或客户端版「Create」选项，创建新仓库并选择该将仓库文件 publish 到 GitHub。
 
-这里有一个注意点，无论是 Fork 还是 Create，必须要将这个打算作为博客的 Repo 的标题，命名或改名为 yourname.github.io 的形式，yourname 是指你的 GitHub Name，此处命名形式 yourname 必须与你的用户名一致。gh Pages 博客才能生效（ Repo 首次生效需要等待几分钟，生效后就可以访问该博客啦。完成后以后添加或改动的更新都会蛮快同步）。
+这里有一个**注意点**，无论是 Fork 还是 Create，必须要将这个打算作为博客的 Repo 的标题，命名或改名为如下形式：
+ 
+> yourname.github.io 
+
+yourname 是指你的 GitHub Name，此处命名形式 yourname 必须与你的用户名一致。gh Pages 博客才能生效（ Repo 首次生效需要等待几分钟，生效后就可以访问该博客啦。完成后以后添加或改动的更新都会蛮快同步）。
+
 
 * Fork a repo;
 * Change the repo title to 「yourname.github.io」;
@@ -72,7 +109,9 @@ Jekyll是一个静态网站生成器，用ruby编写而成，结合了markdown�
     |—— feed.xml
     `-- README.md
 
-目录文档详细说明：    
+### Description of The Catalog Document
+
+目录文档详细说明。如下：    
 
 * _config.yml **博客配置**文档（包括博客标题、favicon、博主 ID、头像、描述、联系方式等基本信息都在这个文档添加或修改）；
 * index.html 博客架构文档；
@@ -83,21 +122,40 @@ Jekyll是一个静态网站生成器，用ruby编写而成，结合了markdown�
 * _posts **博客正文**存放的文件夹。命名有规定，必须为「日期 + 标题」的模式，即「2015-04-27-Like-Kissing.md」，才能发布到博客里；
 * images 图片文件夹，存放博客相关素材，包括博客 favicon、博主头像等图片及博文贴图素材；
 * CNAME 用于绑定个人域名的文档；
-* 404.html 「404 Not Found.」站点链接无法访问时的展示页。
-* About.md 博客中的个人说明文档（About Me）；
-* feed.xml 博客的 RSS 订阅工具；
+* 404.html 「404 Not Found.」站点链接无法访问时的提示页面。
+* About.html 博客中的个人说明文档（About Me），以 html、md 格式为主；
+* feed.xml 博客的 RSS 订阅；
 * README.md 项目说明文档。用于 Github 个人项目主页的说明（描述）。
 
-## Custom Configuration
+除此之外，还有诸如 fonts 文件夹，存放博客用的字体文件，或有主题是将 css/js/fonts/images 等文件夹合并到 _assets 为名的主文件夹中。404.html/feed.xml/CNAME 文件并非必须，但一般架构完整的博客都有。
 
-自定义修改中，需要自己修改的文档包括：
+### Custom Configuration
+
+自定义修改中，涉及到修改的文档包括：
 
 * _config.yml
-* About.me、CNAME
-* images 文件夹下的存放的 favicon、头像一类。
+* About.html 
+* CNAME 
+* images 
+
+博客标题、博主 ID 一类都可以直接改。博客 favicon、博主 avatar 一类，还需要到 images 文件夹替换图片和配置文件的对应文件名。注意原图的尺寸，尽量与模板中的原图保持一致。
+
+[damotou.com](http://www.damotou.com/index.php)  在线制作（转换）用于 favicon（还不知道这是什么？瞧一下自己 Chrome 浏览器书签页左侧的小图标） 的 icon 图片，选择 32*32 像素的图片下载；
 
 
-### Install Git 
+
+## Create a new post
+
+接下来我们要开始更新自己的第一篇博文啦。
+
+比较标准的 Jekyll 博客，博文都被放置于 _posts 文件夹中。文档格式为 markdown 或 HTML。当然一般书写 md 文档快捷得多。
+
+
+
+### Install Git
+
+很多教程谈及 Jekyll 时多半要涉及 Jekyll 本地环境的搭建，但如果不需要频繁预览，并不是必须的。在更新博客的思路上，如果要专业地谈论使用，也多半要挖新坑了——Git 语言的使用。但既然有 GitHub Desktop 这样的本地的有用户界面的 Git 应用，那也不妨直接拿来用，立马就开始更新自己的博客啦。
+
 GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户端版（区别于命令行工具）。
 
 安装完成后登陆个人账户。
@@ -105,6 +163,9 @@ GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户�
 ### Install TextMate or Sublime Text
 
 工欲善其事，必先利其器。介绍
+
+
+# Appendix I 附录 I
 
 ## Domain Purchase & Configuration
 
@@ -145,11 +206,32 @@ DNSPod 的帮助说明里对于常见域名服务商，如 GoDaddy/NameCheap/ �
 
 * 添加域名到 DNSPod；
 * 在 DNSPod 新增域名下添加 A 记录，Github Pages IP Address：「192.30.252.153」；
-* 在域名服务商站点修改 DNS 服务。添加 DNSPod 的两个地址；
+* 在域名服务商站点修改 DNS 服务。添加 DNSPod 的两个地址（注意保留两个地址后的「.」）；
 * 域名解析完成；
- 
+
+|主机记录|记录类型|线路类型|记录值|权重|MX优先级|TTL|
+|---|---|---|---|---|---|---|---|---|
+|@|A|默认|192.30.252.153|-|-|600|
+|@|NS|默认|f1g1ns1.dnspod.net.|-|-|600|
+|@|NS|默认|f1g1ns2.dnspod.net.|-|-|600|
+
 具体请查看：[学会使用DNSPod，仅需三步-DNSPod-DNSPod](https://support.dnspod.cn/Kb/showarticle/tsid/177/)
 
 域名添加完成后，需等待解析生效。时间是 0~72 小时，一般一天内都能完成。
 
-## GitHub Setting
+### gh Pages Setting
+
+1. 在 Repo 主目录创建 CNAME 文件；
+2. 添加个人域名到文件中，保存；
+3. 在 DNSPod 相关域名下添加个人域名记录(注意在域名输入完成后添加一个「.」)：
+
+|主机记录|记录类型|线路类型|记录值|权重|MX优先级|TTL|
+|---|---|---|---|---|---|---|---|---|
+|www|CNAME|默认| xxx.com. |-|-|600|
+
+# Reference 参考资料
+
+* [GitHub Pages](https://pages.github.com/) gh Pages 官方说明
+* [Jekyll](https://github.com/jekyll/jekyll) GitHub 上的 Jekyll 官方仓库
+* [安装 Jekyll](http://jekyllcn.com/docs/installation/) 在本地配置 Jekyll 环境，实现本地 Blog 配置改动和博文发布的预览。
+* [使用 Github Pages 建独立博客](http://beiyuu.com/github-pages/)  
