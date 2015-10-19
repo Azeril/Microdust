@@ -172,7 +172,7 @@ GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户�
 
 Clone 或创建个人博客项目
 
-![GitHub for Mac](http://dreamofbook.qiniudn.com/GitHubPic1.png)
+![GitHub for Mac](http://dreamofbook.qiniudn.com/GithubPic1.png)
 
 在登录后，将已经 Fork 的 GitHub Pages 项目从 GitHub （云端）中， Clone 到本地来，以便于修改。如果已经下载到本地，可以 Create 后将仓库文档拖放进去。
 
@@ -186,7 +186,7 @@ Clone 或创建个人博客项目
 
 在修改文件（修改文件和添加博文的方法，将在后边说明。）完成后，GitHub 客户端会将文件的修改细节（包括位置和次数）显示出来。由于文件是在本地修改的，因而还需要提交到 GitHub 的服务器上，修改才会最终生效。
 
-![GitHub for Mac2](http://dreamofbook.qiniudn.com/GitHubPic2.png)
+![GitHub for Mac2](http://dreamofbook.qiniudn.com/GithubPic2.png)
 
 上图显示的就是提交的流程：
 
@@ -292,7 +292,7 @@ Sample.md 文档后填写相应的内容，开始写博文。Dropbox 文档可�
 
 登录 GitHub gh Pages 博客项目主页。点击主目录中的 _posts 文件夹。然后点击「+」，创建新博文。
 
-![GitHubWeb](http://dreamofbook.qiniudn.com/GitHubWeb.jpg)
+![GitHubWeb](http://dreamofbook.qiniudn.com/GithubWeb.png)
 
 博文结构还是一样：
 
@@ -300,7 +300,7 @@ Sample.md 文档后填写相应的内容，开始写博文。Dropbox 文档可�
 * 博文代码
 * 正文
 
-![](http://dreamofbook.qiniudn.com/GitHubWeb2.png)
+![](http://dreamofbook.qiniudn.com/GithubWeb2.png)
 
 写完后，为本次创建文档的操作输入一段描述，而后确认提交就发布啦。
 
