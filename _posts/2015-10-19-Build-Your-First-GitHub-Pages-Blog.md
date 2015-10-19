@@ -122,10 +122,10 @@ yourname 是指你的 GitHub Name，此处命名形式 yourname 必须与你的�
 * css 存放博客系统的页面渲染文档文件夹，主要用于调节诸如标题字体、博文字体大小颜色之类；
 * js 存放博客调用的 JS 文档文件夹
 * _posts **博客正文**存放的文件夹。命名有规定，必须为「日期 + 标题」的模式，即「2015-04-27-Like-Kissing.md」，才能发布到博客里；
-* images 图片文件夹，存放博客相关素材，包括博客 favicon、博主头像等图片及博文贴图素材；
+* images **图片文件夹**，存放博客相关素材，包括博客 favicon、博主头像等图片及博文贴图素材；
 * CNAME 用于绑定个人域名的文档；
 * 404.html 「404 Not Found.」站点链接无法访问时的提示页面。
-* About.html 博客中的个人说明文档（About Me），以 html、md 格式为主；
+* About.html 博客中的个人说明文档（**About Me**），以 html、md 格式为主；
 * feed.xml 博客的 RSS 订阅；
 * README.md 项目说明文档。用于 Github 个人项目主页的说明（描述）。
 
@@ -166,7 +166,7 @@ GitHub for Desktop [Windows/Mac](https://desktop.github.com/)  GitHub 的客户�
 
 打开 GitHub 的菜单（切换到 GitHub 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 GitHub 账户。
 
-![GitHubID](http://dreamofbook.qiniudn.com/GitHubID.png)
+![GitHubID](http://dreamofbook.qiniudn.com/GithubID.png)
 
 ### Clone / Create
 
@@ -304,9 +304,13 @@ Sample.md 文档后填写相应的内容，开始写博文。Dropbox 文档可�
 
 写完后，为本次创建文档的操作输入一段描述，而后确认提交就发布啦。
 
-# Appendix I 附录 I
 
-## Domain Purchase & Configuration
+***
+✈
+
+## Appendix I 附录 I
+
+### Domain Purchase & Configuration
 
 什么，你还想要为 blog 挑一个更有 feeling 的域名？
 
@@ -314,7 +318,7 @@ GitHub Pages 博客默认关联的是以 yourname.github.io 为格式的网址�
 
 什么？还没有，又想要？请继续往下读。
 
-### Domain
+#### Domain
 
 几个比较好的域名服务商：
 
@@ -337,7 +341,7 @@ GitHub Pages 博客默认关联的是以 yourname.github.io 为格式的网址�
 
 **Gandi.net** 特定时间特定域名有优惠，信息发布很及时。界面很友好。海量域名，五百多个...这方面与 Namecheap 互有优势。上次在这里买过一个 .cat 结尾的。支持银联，但结算很慢（不知现在是否有改善）。如果有 Visa 一类就尽量不用银联转款啦。 
 
-### DNS Support
+#### DNS Support
 
 [DNSPod](https://www.dnspod.cn/) 是中国的 DNS 解析服务商。因为众所周知的原因，国内服务商还是有天然优势……在站点解析方面速度和稳定性都不赖，让 DNSPode 成为首选。因而在购置域名后一般会单独操作，将原有的由各家域名服务商提供的域名解析修改为 DNSPod 提供的服务。
 
@@ -358,7 +362,7 @@ DNSPod 的帮助说明里对于常见域名服务商，如 GoDaddy/NameCheap/ �
 
 域名添加完成后，需等待解析生效。时间是 0~72 小时，一般一天内都能完成。
 
-### gh Pages Setting
+#### gh Pages Setting
 
 1. 在 Repo 主目录创建 CNAME 文件；
 2. 添加个人域名到文件中，保存；
@@ -368,7 +372,10 @@ DNSPod 的帮助说明里对于常见域名服务商，如 GoDaddy/NameCheap/ �
 |---|---|---|---|---|---|---|---|---|
 |www|CNAME|默认| xxx.com. |-|-|600|
 
-# Reference 参考资料
+***
+✈
+
+## Reference 参考资料
 
 * [GitHub Pages](https://pages.github.com/) gh Pages 官方说明
 * [Jekyll](https://github.com/jekyll/jekyll) GitHub 上的 Jekyll 官方仓库
