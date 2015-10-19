@@ -527,13 +527,13 @@ Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相�
 
 引用的代码自动变形了。博文中两个花括号及「site.url」构成的代码块会自动补全为我的个人域名，所以这篇博文代码区中的演示也受到了影响(上一段的引用就受到影响了。后边的文中引用的例子也一样)。如果复制了刚才的代码块，需要将「 azeril.me//」修改成下图中的样子（两个花括号，中间加 site.url ）。即：
 
-![code](http://7s1rzi.com1.z0.glb.clouddn.com/onelinecode.png)
+![code](http://dreamofbook.qiniudn.com/onelinecode.png)
 
 使用时复制和修改相应的代码，并替换「/images/xxx.jpg」这样的链接为自己放置图片的路径。
 
 如果 Github 项目下有 images 文件夹，直接在里面放图，就是如上的代码替换。如果是 images 目录下的文件夹，如 Instagram，则路径为：「images/Instagram/ xxx.jpg」。依此类推。
 
-![](http://7s1rzi.com1.z0.glb.clouddn.com/twolinescode.png)
+![](http://dreamofbook.qiniudn.com/twolinescode.png)
 
 ### 附加浏览窗口的模式
 
@@ -541,7 +541,7 @@ Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相�
 
 效果如下：
 
-![PreviewPic](http://7s1rzi.com1.z0.glb.clouddn.com/Preview_Pic.png)
+![PreviewPic](http://dreamofbook.qiniudn.com/Preview_Pic.png)
 
 两张并排显示的代码（单张和三张代码和前述的类似）：
 
