@@ -16,7 +16,11 @@ The blog used many tool/service,many thanks to:
 * [Google](http://google.com), the one who tell me how to make it.
 * …
 
+## How To Creat A Jekyll Blog
 
+[Build-Your-First-GitHub-Pages-Blog](http://azeril.me/blog/2015/10/19/Build-Your-First-GitHub-Pages-Blog/)
+
+Build your blog Step by step
 ## Just write
 
 Start writing now！
