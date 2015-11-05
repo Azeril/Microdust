@@ -1,7 +1,6 @@
 ---  
 layout: page  
-title: "Tags"  
-permalink: /tags/   
+title: "Tags"    
 description: "博客标签库"   
 header-img: "img/bay.jpg"   
 ---  
