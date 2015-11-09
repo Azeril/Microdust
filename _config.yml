@@ -28,6 +28,8 @@ zhihu_username: Azeril
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: pygments
 permalink: pretty
 paginate: 8
