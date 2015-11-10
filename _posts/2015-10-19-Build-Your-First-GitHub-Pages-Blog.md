@@ -47,7 +47,7 @@ Jekyll 是一个静态站点生成器，基于 ruby 语言编写。结合 Markdo
 
 ![BlogThemes](/img/Themes/BlogThemesX.jpg)
 
-[Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/2015/10/16/Selected-Collection-of-Jekyll-Themes/)
+[Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html)
 
 可以从中找自己合意的，然后去对应的 GitHub 仓库 Fork/Clone 就行。
 
@@ -208,7 +208,7 @@ Markdown 语法是对纯文本格式的强化，能使文本显示得更清晰�
 
 Markdown 格式的简洁特性，使之能快速转换为各种互联网上的常用格式，比如 HTML、Word、PDF 等，所以目前越来越常用。
 
-关于 Markdown 语法的细则，请参看 [Markdown 简明语法参考](http://azeril.me//blog/2015/08/19/Markdown-Syntax/)。
+关于 Markdown 语法的细则，请参看 [Markdown 简明语法参考](http://azeril.me/blog/Markdown-Syntax.html)。
  
 嗷，内容太多？但实际用的过程中熟悉起来很快的。花一个小时掌握也差不多啦。
 
