@@ -1,9 +1,9 @@
 ---  
-layout: post  
-title: 图床测试  
-categories: [blog ]  
-tags: [ , ]  
-description: 图床测试  
+layout: post 
+title: 图床测试
+categories: [blog ]
+tags: [ , ]
+description: 图床测试
 ---
 
 
@@ -17,4 +17,3 @@ Dropbox
 Qiniu  
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="WMLm7zW" data-context="false"><a href="//imgur.com/WMLm7zW">测试用图</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
