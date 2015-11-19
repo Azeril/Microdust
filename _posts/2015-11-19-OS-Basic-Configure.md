@@ -2,8 +2,8 @@
 layout: post  
 title: Mac OS 基本环境配置命令集 
 categories: [blog ]  
-tags: [Tech, ]  
-description: 「快速打造一个可心的独立博客~！」   
+tags: [Tech, Mac, ]  
+description: 「快速配置常用命令集」   
 ---
 
 准确说该是配置的番外篇，虽说，嗯...正篇还没写 XD
@@ -12,29 +12,6 @@ description: 「快速打造一个可心的独立博客~！」
 
 顺手将这次用到的命令集汇总一下
 
-
-## install zsh and others
-
-安装 zsh：
-
-```
-brew install zsh
-```
-or
-
-```
-brew install zsh zsh-completions
-```
-
-安装 wget `brew install wget`
-
-自动安装 oh my zsh:
-
-```
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
-```
-
-安装插件 autojump `brew install autojump`
 
 
 ## Command Line Tool
@@ -112,5 +89,31 @@ brew install node
 ```
 
 更新 node： `brew upgrade node`
+
+
+## install zsh and others
+
+安装 zsh：
+
+```
+brew install zsh
+```
+or
+
+```
+brew install zsh zsh-completions
+```
+
+安装 wget `brew install wget`
+
+自动安装 oh my zsh:
+
+```
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+```
+
+安装插件 autojump `brew install autojump`
+
+
 
 and so on 
