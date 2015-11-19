@@ -6,8 +6,6 @@ tags: [Tech, ]
 description: 「快速打造一个可心的独立博客~！」   
 ---
 
-## 
-
 准确说该是配置的番外篇，虽说，嗯...正篇还没写 XD
 
 重装系统的确是累活...不过好在还是有简化方案。命令模式开始用起来，补补墙角还是很不错的。
@@ -115,6 +113,4 @@ brew install node
 
 更新 node： `brew upgrade node`
 
-## install Gitbook
-
-...
+and so on 
