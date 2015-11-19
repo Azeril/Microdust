@@ -22,6 +22,8 @@ XCode 选择安装
 xcode-select --install
 ```
 
+包含的可用命令集，可在 /Library/Developer/CommandLineTools/ 目录下查看。
+
 ## Install Ruby
 
 关于 [Ruby](https://www.ruby-lang.org/en/downloads/)
