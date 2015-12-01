@@ -68,6 +68,8 @@ header-img: "img/autumn.jpg"
 
 ### Resources
 
+[IT-eBooks](http://it-ebooks.info/)
+
 [Library Genesis](http://gen.lib.rus.ec/)  
 
 [bookfi.org](http://en.bookfi.org/)  
