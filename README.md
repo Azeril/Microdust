@@ -18,7 +18,7 @@ The blog used many tool/service,many thanks to:
 
 ## How To Creat A Jekyll Blog
 
-[Build-Your-First-GitHub-Pages-Blog](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog/)
+[Build-Your-First-GitHub-Pages-Blog](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
 
 Build your blog Step by step
 ## Just write
