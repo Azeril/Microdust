@@ -50,6 +50,8 @@ header-img: "img/autumn.jpg"
 
 ### Convert 
 
+[jp2a](https://csl.name/jp2a/) JPEG to ASCII converter
+
 [Shorten](http://www.waqiang.com/index.php/url/shorten) 网址转换
 
 [Damotou](http://www.damotou.com/index.php) 在线转换工具 Icon 图标
@@ -65,6 +67,8 @@ header-img: "img/autumn.jpg"
 [ClipConverter](http://www.clipconverter.cc/) 转换和下载 Youtube 视频
 
 [Worditout](http://worditout.com/) Tags Cloud
+
+[草料二维码生成器](http://cli.im/)
 
 ### Resources
 
