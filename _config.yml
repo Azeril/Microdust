@@ -3,7 +3,7 @@ title: Microdust
 header-img: "img/autumn2.jpg"
 tagline: "吉光片羽"  
 description: "在遙遠的地方 一切虔誠終必相遇"  
-baseurl: ""
+baseurl: "/Users/Azeril/azeril.github.io"
 url: "http://azeril.me"  
 #url: "http://localhost:4000"
 
@@ -32,6 +32,8 @@ kramdown:
   input: GFM
 highlighter: pygments
 permalink: none
+
+gems: [jekyll-paginate]
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 relative_permalinks: true
