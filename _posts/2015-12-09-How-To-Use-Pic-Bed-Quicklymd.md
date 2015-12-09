@@ -41,6 +41,8 @@ description: 「不用很累很麻烦就可以生成自己的图片外链啊」
 2. Finder 找到图片，拖拽，（自动...上传，生成外链）
 3. 切回编辑器，粘贴外链
 
+![](/img/Blog.Dropzone.Pic.Add.Action.gif)
+
 ## 正餐开始
 
 * 锅子：Dropzone ## 基础应用
