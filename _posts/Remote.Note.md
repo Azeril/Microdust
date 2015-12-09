@@ -1,3 +1,12 @@
+---  
+layout: post  
+title: 远程协同的当下与未来   
+categories: [blog ]  
+tags: [iOS,  ]
+description: 「读 Remote 感受一下此刻的未来」  
+---  
+
+
 # Remote
 
 远程工作的关键是：独处以进行深度地思考。
