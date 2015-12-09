@@ -96,7 +96,11 @@ ERROR:  While executing gem ... (Errno::EPERM)
 
 做菜总得有料...接下来就是为 Dropzone 配置七牛云插件。Qiniud.zbundle。
 
-下载地址：[Aptonic/dropzone3-actions](https://github.com/aptonic/dropzone3-actions) 把整个仓库扒下来，找到主目录下的 Qiniu.dzbundle 插件双击并安装，在新出现的对话框，点击「Add to Grid」完成。
+下载地址：[Aptonic/dropzone3-actions](https://github.com/aptonic/dropzone3-actions) 把整个仓库扒下来，找到主目录下的 Qiniu.dzbundle 插件。
+
+或者 <http://t.cn/R47IsVs> 直接下载
+
+安装很容易，双击一下，在新出现的对话框，点击「Add to Grid」完成。
 
 ## 配置
 
