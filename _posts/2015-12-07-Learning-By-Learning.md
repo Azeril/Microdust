@@ -10,6 +10,11 @@ description: 「Learning by learning」
 
 以 CLI 来做栗子也很贴切。最为基础的命令 无非那么几个 cd/mkdir/touch/ls/pwd/cp/mv/rm/grep/vi 等。掌握了这些基础命令 我们就可以在需要用到需要命令行操作的工具时 阅读查找到的教程时越过大多数的坑 直接将一个个工具使用起来了。至于说进一步的探索 那就看自己面对更为具体的场景时更细致的需求了。比如是使用 Linux 系统 比如是要自己把玩一些有意思的命令行工具 或进一步的自己去制作一些特定的脚本……
 
+基础命令行教程：
+
+1. [Learn the Command Line | Codecademy](https://www.codecademy.com/learn/learn-the-command-line) Command Line 教程 但编辑器部分 只讲了更现代的编辑器 Nano 不包含 Vim
+2. [Interactive Vim tutorial](http://www.openvim.com/tutorial.html) VIM 教程
+
 深入学习 CLI 个人推荐的两部教程：
 
 1. William Shotts - [快乐的 Linux 命令行](http://billie66.github.io/TLCL/) 
