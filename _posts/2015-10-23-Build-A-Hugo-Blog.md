@@ -81,7 +81,7 @@ Hugo 官方提供的主题包。自动下载在 themes 文件夹中。
 
 
 
-
+## 参考资料
 
 * [Installing Hugo](https://gohugo.io/overview/installing/)
 * [利用Hugo搭建博客系统 - 苦X工程师](http://kevensya.github.io/post/hugo-install/)
