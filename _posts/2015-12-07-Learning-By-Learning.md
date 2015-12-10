@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: Step by step  
+title: Learning, Step By Step  
 categories: [blog ]  
 tags: [Tutorial, ]  
 description: 「Learning by learning」   
