@@ -12,7 +12,7 @@ description: 「Learning by learning」
 
 基础命令行教程：
 
-1. [Learn the Command Line | Codecademy](https://www.codecademy.com/learn/learn-the-command-line) Command Line 教程 但编辑器部分 只讲了更现代的编辑器 Nano 不包含 Vim
+1. [Learn the Command Line - Codecademy](https://www.codecademy.com/learn/learn-the-command-line) Command Line 教程 但编辑器部分 只讲了更现代的编辑器 Nano 不包含 Vim
 2. [Interactive Vim tutorial](http://www.openvim.com/tutorial.html) VIM 教程
 
 深入学习 CLI 个人推荐的两部教程：
