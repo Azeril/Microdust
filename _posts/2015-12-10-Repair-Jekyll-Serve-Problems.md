@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 升级 Jekyll 3.0 版 修复本地预览功能
+title: 修复 Jekyll 升级 3.0 版后的预览问题
 categories: [blog ]
 tags: [Tech, ]
 description: 一次手贱更新版本带来的后续问题及解决...
