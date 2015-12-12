@@ -18,5 +18,5 @@ My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Fa
 ——Azeril
 
 <center>
-     ![code](http://dreamofbook.qiniudn.com/hacker.png)
+     ![](http://dreamofbook.qiniudn.com/hacker.png)
 </center>
