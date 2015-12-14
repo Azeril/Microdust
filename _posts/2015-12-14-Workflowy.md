@@ -18,7 +18,7 @@ description: 一个梳理思路的清单/大纲工具
 
 「Workflowy is to TODO as git is to svn.」
 
-[Workflowy](https://workflowy.com/) 是一个轻量级的清单/大纲工具或 GTD 工具，这样的表述并不准确，场景比一个清单或大纲要远为广阔得多。它的出发点是，「Organize your brain.」
+[Workflowy](https://workflowy.com/) 是一个轻量级的清单/大纲工具或 GTD 工具，这样的表述并不准确，场景比一个清单或大纲要远为广阔得多。它的出发点是，Organize your brain。
 
 Workflowy 兼具速度和易用，对理清思路或作为检查清单都很有益处。它的功能很聚焦（因而足够简约简约），异常简单的列表模式大幅度减少了干扰和骚动的可能，能让自己更为专注地进行记录。面对理顺枝蔓丛生的事，切换思维，跳出重重的枝节，做一些立足全局的思考。
 
@@ -82,6 +82,9 @@ Workflowy 兼具速度和易用，对理清思路或作为检查清单都很有�
   - 邀请好友注册，每人每月各增 250条
   - 注册 Pro 版。按月或按年付费 $4.99/month $49/year
 
+* 版本
+  - 网页版；
+  - App 版（Android/iOS）；
 
 ## 快捷键
 
