@@ -3,7 +3,7 @@ layout: post
 title: 字符打造的图像迷宫：ASCII 的艺术与 jp2a 的技术
 categories: [blog ]
 tags: [Tech, Linux, ]
-description: 讓荒蕪之地繼續荒蕪。生長的，在此處還有別處，繼續生長。
+description: 看一看字符世界的優美和神奇
 ---
 
 

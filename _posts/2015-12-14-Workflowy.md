@@ -18,9 +18,11 @@ description: 一个梳理思路的清单工具
 
 「Workflowy is to TODO as git is to svn.」
 
-[Workflowy](https://workflowy.com/) 是一个轻量级的清单/大纲工具或 GTD 工具，这样的表述并不准确，场景比一个清单或大纲要远为广阔得多。它的出发点是，Organize your brain。
+简单说，[Workflowy](https://workflowy.com/) 是一个轻量级的清单/大纲工具或 GTD 待办事项列表应用。这样的概括肯定并不见得多么准确，就使用场景说，也比一个清单或大纲要远为广阔得多，不过可以给初次接触的人一个基本的概念。
 
-Workflowy 兼具速度和易用，对理清思路或作为检查清单都很有益处。它的功能很聚焦（因而足够简约简约），异常简单的列表模式大幅度减少了干扰和骚动的可能，能让自己更为专注地进行记录。面对理顺枝蔓丛生的事，切换思维，跳出重重的枝节，做一些立足全局的思考。
+而 Workflowy 的出发点是，Organize your brain。
+
+它兼具速度和易用，对理清思路或作为检查清单都很有益处。它的功能很聚焦（因而足够简约简约），异常简单的列表模式大幅度减少了干扰和骚动的可能，能让自己更为专注地进行记录。面对理顺枝蔓丛生的事，切换思维，跳出重重的枝节，做一些立足全局的思考。
 
 添加、编辑和整理条目容易上手，可以直接条目与区块拖拽来改变层级和顺序。
 
@@ -122,5 +124,7 @@ Workflowy 版的 快捷键清单：
 
 ## 参考资料
 
+* [What is so cool about WorkFlowy? - Quora](https://www.quora.com/What-is-so-cool-about-WorkFlowy)
+* [How I use WorkFlowy to do my Best Work — Work Like An Artist](http://worklikeanartist.com/blog/workflowy)
 * [如何玩转 WorkFlowy？ - 知乎](http://www.zhihu.com/question/20491194)
 * [WorkFlowy - 教程 - 搜索栏、长距离移动技巧 - 离线应用扩展 - Tab页重载 - 时间戳](https://bbs.et8.net/bbs/showthread.php?t=1325300)
