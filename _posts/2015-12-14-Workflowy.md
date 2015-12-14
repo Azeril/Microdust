@@ -24,7 +24,7 @@ Workflowy 兼具速度和易用，对理清思路或作为检查清单都很有�
 
 添加、编辑和整理条目容易上手，可以直接条目与区块拖拽来改变层级和顺序。
 
-
+![](http://dreamofbook.qiniudn.com/WorkflowyOutline.png)
 
 ## 主要优点
 
