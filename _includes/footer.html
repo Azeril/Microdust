@@ -13,6 +13,8 @@
                             </span>
                         </a>
                     </li>
+                    
+
                     {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -71,6 +73,7 @@
                         </a>
                     </li>
                     {% endif %}
+
                     <!--
                     {% if site.weibo_username %}
                     <li>
@@ -86,7 +89,7 @@
 
                 </ul>
                 <p class="copyright text-muted">
-                &copy; 2011-{{ site.time | date: '%Y' }} {{ site.owner.name }} ♪ Powered by Jekyll.
+                &copy; 2011~{{ site.time | date: '%Y' }} {{ site.owner.name }} ♪ Powered by Jekyll.
                 </p>
             </div>
         </div>
@@ -101,6 +104,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+
 
 
 

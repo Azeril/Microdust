@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workflowy 凌厉简约的清单工具
+title: Workflowy 简约凌厉的清单工具
 categories: [blog ]
 tags: [Tool, ]
 description: 一个梳理思路的清单工具
