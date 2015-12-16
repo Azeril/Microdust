@@ -472,7 +472,8 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 单张居中显示：
 
     <center>
-    <img src="http://dreamofbook.qiniudn.com/Zero.png">
+        <img src="http://dreamofbook.qiniudn.com/Zero.png">
+    </center>
     
     OR
 

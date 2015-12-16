@@ -19,7 +19,7 @@ description: PopClip is a easy but great app for mac.
 
 * Instapaper - Save the URL to read later with Instapaper.
 * Pocket - Save the URL to view later with Pocket.
-* Shorten Link - Turn a long URL into a much shorter one. Services available: is.gd, v.gd. Credit: hzlzh.
+* [Shorten Link](http://hzlzh.io/popclip-extensions/) - Turn a long URL into a much shorter one. Services available: is.gd, v.gd. Credit: hzlzh.
 * URL Encode	- Percent-encode or decode the selected text.
 
 ### Work with Keywords
@@ -52,3 +52,4 @@ Download those extensions in the list:
 
 * From box.com [Extension Package](https://app.box.com/s/dwx3vl5m79n6txwtd911bk2ue6vud1du)
 * From SpeedShare [Extension Package](http://speedy.sh/4FDJm/PopClip-Extensions.zip) 
+
