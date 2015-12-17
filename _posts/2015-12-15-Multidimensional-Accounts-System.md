@@ -92,7 +92,7 @@ description: 心不要太大....
 * Uppercase Letters 大写字母 A..Z
 * Lowercase Letters 小写字母 a..z
 * Numbers 数字 0..9
-* Symbol 符号 ` ~ ! @ # $ % ^ & * ( ) _ - + = { } [ ] \ | : ; " ' < > , . ? /
+* Symbol 符号 ```~ ` ! @ # $ % ^ & * ( ) _ - + = { } [ ] \ | : ; " ' < > , . ? /```
 
 
 密码不合适使用的内容/组合：
