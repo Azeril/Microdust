@@ -2,7 +2,7 @@
 layout: post
 title: 多维度账户体系与密码保护策略
 categories: [blog ]
-tags: [Apps, Mac, ]
+tags: [Tech, Network, ]
 description: 心不要太大....
 ---
 
@@ -112,14 +112,14 @@ description: 心不要太大....
 * 组合、组合
   * 大小写字母、数字与特殊字符都用起来 
 * 混合搭配
-  * 常用字符 + 固定符号 + 变量 Ender_Expl0re_2Twitter Lily_Expl0re_2Face8ook  
+  * 常用字符 + 固定符号 + 变量 Ender_Expl0re_2Twitter Lily_Expl0re*2Face8ook 一类，不算最佳，但减少记忆负担又有效；
   * 多模块编码 + 特殊符号连缀 3Key&Board@MyDesk
-  * 短语首字母缩写连结 jutouwangmingyue(举头望明月) → JTwmy
-  * 拼写错误或替代 Walkthreedogs → Wk3Dgs
+  * 短语（歌词 格言 诗歌等）首字母缩写连结 jutouwangmingyue(举头望明月) → JTwmy
+  * 拼写变形或符号替代 Walkthreedogs → Wk3Dgs 一个来自 Apple 的例子：You will be welcomed → UW1llBvv3lc0meD;
 * 有意义（便于记忆。尽量只自己知晓，只对自己存在意义）；
 * 不要长期重复使用同一密码；
 * 不同服务不同账户，多维度匹配，多维度保护；
-* 核心服务，如有可能不定期更换密码；
+* 核心账户，如有可能不定期更换密码；
 * 不在并非自己的设备上登录重要账户，如必须，用隐身窗口访问；
 * 使用密码生成器生成高强度随机密码；
 * 要记得住记得住记得住，或者，借助 1Password/LastPass 来创建、保存；
@@ -165,7 +165,6 @@ description: 心不要太大....
 * 以能随时随地提取为佳；
 * 更新密码表相对便捷；
 * 以不依赖云端保存为佳；
-
 
 地球不那么安全，心不要太大啦。
 
