@@ -34,9 +34,13 @@ header-img: "img/autumn.jpg"
 
 [Dropbox](https://www.dropbox.com/)  Offline version：[Download](https://www.dropbox.com/downloading?plat=mac&full=1)  
 
+[Qiniu](http://qiniu.com)
+
 [Imgur](http://imgur.com/)  
 
 [Photobucket](photobucket.com)
+
+[PasswordMeter](http://www.passwordmeter.com)
 
 [Evernote](https://www.evernote.com/)  
 
