@@ -6,7 +6,7 @@ header-img: "img/autumn.jpg"
 ---
 
 
-### Rule
+### Rule 
 
 [W3C Editor's Draft](http://w3c.github.io/clreq/#glyphs_sizes_and_positions_in_character_faces_of_punctuation_marks) 中文排版  
 
@@ -15,6 +15,8 @@ header-img: "img/autumn.jpg"
 [StateAir](http://stateair.net/) U.S. Department of State Air Quality Monitoring Program
 
 ### Tools 
+
+[Homebrew — The missing package manager for OS X](http://brew.sh/) software package management
 
 [Dillinger](http://dillinger.io/) 
 
@@ -29,6 +31,8 @@ header-img: "img/autumn.jpg"
 [Strut.io](http://strut.io/)
 
 ### Service 
+
+[GitHub](https://github.com/)
 
 [Google Analytics](https://analytics.google.com/analytics/web/)
 
