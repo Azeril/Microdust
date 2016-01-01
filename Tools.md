@@ -16,7 +16,7 @@ header-img: "img/autumn.jpg"
 
 ### Tools 
 
-[Homebrew — The missing package manager for OS X](http://brew.sh/) software package management
+[Homebrew](http://brew.sh/) software package management
 
 [Dillinger](http://dillinger.io/) 
 
