@@ -22,9 +22,10 @@ description: 一年阅读惨淡的收场
 
 书影图墙。
 
-<center>
-![](http://dreamofbook.qiniudn.com/DoubanBook2015List.jpg)
-</center>
+<figure>
+  <img src="http://dreamofbook.qiniudn.com/DoubanBook2015List.jpg">
+</figure>
+
 
 
 ## 年度阅读清单
