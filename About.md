@@ -18,6 +18,8 @@ My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Fa
 ——Azeril
 
 
+> Live long and prosper
+
 <center>
     <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
 </center>
