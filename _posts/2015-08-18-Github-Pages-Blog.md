@@ -27,7 +27,7 @@ GitHub Pages 是 GitHub 所提供的一个博客系统。现在使用这一服�
 搭建一个基于 GitHub 的博客，一般会利用到一下的一些服务及工具（仅作了解，不需要深究）：
 
 1. GitHub 知名代码托管平台。博客的所有文档都存放在 GitHub 的个人项目里。博客是用了其中的一个服务：GitHub Pages；
-2. Jekyll 基于 GitHub 的模板系统，可选取相关的主题作为自己的博客样式。初次之外，也可选用；
+2. Jekyll 基于 GitHub 的模板系统，可选取相关的主题作为自己的博客样式。；
 3. Markdown 写作博文时使用的文本语法，条理分明，易于掌握；
 4. Git 一种代码版本管理的程序，包括我们博客更新也是依赖于此；
 5. Godaddy.com / Gandi.net / NameCheap.com 购买个人域名的网站，前两个支持支付宝/银联，第三个只有双币信用卡才能购买；
@@ -48,15 +48,15 @@ GitHub 客户端下载地址：[GitHub for Mac](https://desktop.GitHub.com/)
 ### 登录 GitHub 账户
 打开 GitHub 的菜单（切换到 GitHub 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 GitHub 账户。
 
-![GitHubID](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubID.png)
+![GitHubID](http://dreamofbook.qiniu.com/GitHubID.png)
 
 ### Clone 或 Add 个人博客项目
 
-![GitHub for Mac](http://7s1rzi.com1.z0.glb.clouddn.com/GitHubPic1.png)
+![GitHub for Mac](http://dreamofbook.qiniudn.com/GitHubPic1.png)
 
 在登录后，将已经 Fork 的 GitHub Pages 项目从 GitHub （云端）中， Clone 到本地来，以便于修改。
 
-博客项目一般的命名都是「个人 ID + GitHub.io」形式。不然无法作为作为个人博客存在。
+一般情况下，博客项目命名都是「个人 ID + GitHub.io」形式。不然无法使用个人博客服务。
 
 ### 提交和同步博客的修改
 
@@ -136,7 +136,7 @@ Markdown 编辑器（写博文时用到的写作应用）：
 
 博文的文件格式一般为 md(Markdown )格式。HTML 格式作为博文发布其实也可，但语法复杂，不利于写作，在此不具体说明。
 
-每一篇 Markdown 文档的开头（第一行都为「 ---」）都必须添加一段代码，用以将文档收录到博客以及标签系统中。
+每一篇 Markdown 博文的开头都有用「---」包裹的几段编码，这在 Jekyll 博客中被称为 YAML 编码。方便博客引擎将相关文档收录到博客以及标签系统中，转化为我们日常在浏览器里看到的博客网页的形态。没有编码，博客显示就会出问题。不同的博客模板，编码也会有些区别。
 
 代码类型如下：
 
@@ -205,7 +205,7 @@ Markdown 编辑器（写博文时用到的写作应用）：
 * 博文代码
 * 正文
 
-![](http://dreamofbook.qiniudn.com/GitHubWeb2.png)
+![](http://dreamofbook.qiniudn.com/GithubWebCommitNewFile.png)
 
 写完后，为本次创建文档的操作输入一段描述，而后确认提交就发布啦。
 
