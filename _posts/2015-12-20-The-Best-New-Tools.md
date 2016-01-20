@@ -120,4 +120,4 @@ Workflowy 研究了使用策略后将工作计划和日常回顾的事全面迁�
 |Jekyll|Y|N|Y|Y|N|N|
 |Git|Y|Y|Y|Y|Y|Y|
 |CLI|Y|Y|N|N|Y|N|
-|Workflowy|Y|Y|N|Y|N|Y|
+|Workflowy|Y|Y|N|Y|Y|Y|
