@@ -29,7 +29,7 @@ description: 好的技巧，多多益善
 
 * [Mac 玩儿法](http://www.waerfa.com/)
 * [MacGG](http://www.macgg.com/)
-* [MacTalk-池建强的随想录 | 关注技术和人文](http://macshuo.com/)
+* [MacTalk-池建强的随想录 关注技术和人文](http://macshuo.com/)
 * [Mac - 少数派](http://sspai.com/tag/Mac)
 * [工具癖 - 专题 - 简书](http://www.jianshu.com/collection/2mvgxp)
 * [Pinapps - 知乎专栏](http://zhuanlan.zhihu.com/pinapps)
