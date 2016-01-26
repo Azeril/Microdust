@@ -22,10 +22,10 @@
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
+                {% endif %}{% endfor %}
                 <li>
                     <a href="{{ site.baseurl }}/feed.xml">Rss</a>
                 </li>
-                {% endif %}{% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
