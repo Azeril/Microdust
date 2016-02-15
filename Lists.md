@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Reading"
+description: "悦读·又一年"
+header-img: "img/sky2.jpg"
+---
+
 ## 一月书单
 
 * 鸟哥的 Linux 私房菜
