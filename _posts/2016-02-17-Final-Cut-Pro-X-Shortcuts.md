@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Final Cut Pro X 常用快捷键清单
+title: Final Cut Pro X 常用快捷键清单  
 categories: [blog ]
-tags: [Mac, , ]
+tags: [Mac, ]
 description: 一个快速上手的快捷键使用清单
 ---
 
