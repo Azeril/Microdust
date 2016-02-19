@@ -2,52 +2,29 @@
 layout: page
 ---
 <style TYPE="text/css">
-#gallery a img {
-    border-style: ;
+.gallery-image-wrapper {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 1em;
+  position: relative;
 }
-#gallery img {
-    border-style: solid;
-    border-color: #b39898;
-    border-width: 3px;
-    padding-bottom: 37px;
-}
-
-#gallery div {
-    padding-top: -20px;
-}
-
-#gallery h5 {
-    text-decoration: none;
-    font-family: "Lucida Grande", Verdana, sans-serif;
-    font-variant: small-caps;
-    margin-top: -37px;
-    margin-left: -29px;
-}
-
-#gallery ul {
-  width:100%;
-  overflow:hidden;
-}
-#gallery ul li {
-  list-style-type:none;
-  float:left;
-  width:50%;
-}
-#gallery ul li h5 {
-  text-decoration: none;
-    font-family: "Lucida Grande", Verdana, sans-serif;
-    font-variant: small-caps;
-  font-size:17px;
-}
+.gallery-image {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%;
 }
 </style>
-{% for i in (0..page.amount) %}
-     <div id="gallery">
-         <img src="{{ page.images[i] }}" /><h5>{{ page.image_info[i] }}</h5>
-       </div>
-  {% endfor %}
-
-<h3><a href="/{{ site.gallery_dir }}">Back To Gallery</a></h3>
-<strong>注：</strong><small>图片请莫随意使用，如需使用请联系:<a href=mailto:bruceboty@gmail.com>bruceboty@gmail.com</a>
-</small>
-
+<h1><a href="/{{ site.gallery.dir }}">{{ page.title }}</a></h1>
+<hr />
+{% for image in page.images %}
+    <div class="gallery-image-wrapper">
+        <a name="{{ image }}"></a>
+        <a href="{{ image }}"{% if site.gallery.lightbox %} rel="lightbox[{{ page.gallery }}]"{% endif %}>
+            <img class="gallery-image" src="thumbs/{{ image }}" />
+        </a>
+    </div>
+{% endfor %}

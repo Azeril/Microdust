@@ -32,7 +32,9 @@ kramdown:
   input: GFM
 highlighter: pygments
 
-gems: [jekyll-paginate]
+gems: 
+- jekyll-gallery-generator
+- jekyll-paginate
 permalink: none
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
@@ -54,13 +56,6 @@ defaults:
       author: "Azeril"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
-## Defaults for photos
-gallery_dir: photos
-galleries:
-  dish:
-  travelling: 
-  people:
-  memo:
 
 # Comments 
 comments :

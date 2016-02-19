@@ -2,50 +2,22 @@
 layout: page
 ---
 <style TYPE="text/css">
-#gallery a img {
-    border-style: ;
+.gallery-wrapper {
+  width: 35em;
+  text-align: center;
+  padding: 1em 0 4em 0;
 }
-#gallery img {
-    border-style: solid;
-    border-color: #b39898;
-    border-width: 3px;
-    padding-bottom: 37px;
-}
-
-#gallery div {
-    padding-top: -20px;
-}
-
-#gallery h5 {
-    text-decoration: none;
-    font-family: "Lucida Grande", Verdana, sans-serif;
-    font-variant: small-caps;
-    margin-top: -37px;
-    margin-left: -29px;
-}
-
-#gallery ul {
-  width:100%;
-  overflow:hidden;
-}
-#gallery ul li {
-  list-style-type:none;
-  float:left;
-  width:50%;
-}
-#gallery ul li h5 {
-  text-decoration: none;
-    font-family: "Lucida Grande", Verdana, sans-serif;
-    font-variant: small-caps;
-  font-size:17px;
-}
+.gallery-best-image{
+  max-height: 20em;
+  max-width: 20em;
 }
 </style>
-<div id="gallery">
-	<ul>
-{% for gallery in page.galleries %}	
-    	<li><a href="{{ gallery['gallery'] }}"><img src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}"></a>
-    <h4><a href="{{ gallery['gallery'] }}">{{ gallery["name"] }}</a> {{ gallery["images"] | size }} images</h4></li>
-{% endfor %}
-</ul>
+{% for gallery in page.galleries %}
+<div class="gallery-wrapper">
+    <a href="{{ gallery['gallery'] }}">
+        <img class="gallery-best-image" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+    </a>
+    <h3><a href="{{ gallery['gallery'] }}">{{ gallery["name"] }}</a></h3>
+    {{ gallery["images"] | size }} image{% if gallery["images"].size != 1 %}s{% endif %}
 </div>
+{% endfor %}
