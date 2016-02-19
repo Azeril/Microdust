@@ -1,0 +1,53 @@
+---
+layout: page
+---
+<style TYPE="text/css">
+#gallery a img {
+    border-style: ;
+}
+#gallery img {
+    border-style: solid;
+    border-color: #b39898;
+    border-width: 3px;
+    padding-bottom: 37px;
+}
+
+#gallery div {
+    padding-top: -20px;
+}
+
+#gallery h5 {
+    text-decoration: none;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-variant: small-caps;
+    margin-top: -37px;
+    margin-left: -29px;
+}
+
+#gallery ul {
+  width:100%;
+  overflow:hidden;
+}
+#gallery ul li {
+  list-style-type:none;
+  float:left;
+  width:50%;
+}
+#gallery ul li h5 {
+  text-decoration: none;
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-variant: small-caps;
+  font-size:17px;
+}
+}
+</style>
+{% for i in (0..page.amount) %}
+     <div id="gallery">
+         <img src="{{ page.images[i] }}" /><h5>{{ page.image_info[i] }}</h5>
+       </div>
+  {% endfor %}
+
+<h3><a href="/{{ site.gallery_dir }}">Back To Gallery</a></h3>
+<strong>注：</strong><small>图片请莫随意使用，如需使用请联系:<a href=mailto:bruceboty@gmail.com>bruceboty@gmail.com</a>
+</small>
+

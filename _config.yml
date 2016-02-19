@@ -54,6 +54,14 @@ defaults:
       author: "Azeril"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
+## Defaults for photos
+gallery_dir: photos
+galleries:
+  dish:
+  travelling: 
+  people:
+  memo:
+
 # Comments 
 comments :
   provider : duoshuo
