@@ -30,7 +30,7 @@ zhihu_username: Azeril
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
+highlighter: rouge
 
 gems: 
 - jekyll-gallery-generator
