@@ -40,7 +40,7 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/XA
 
 # Title
 
@@ -61,9 +61,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : Ahri
   disqus :
-      short_name : Azeril
+      short_name : Ahri
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1
