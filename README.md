@@ -1,4 +1,4 @@
-# Microdust Ahri
+# Hey This Ahri 
 
 This is a blog created by Azeril. The blog is live at [azeril.me](http://azeril.me/).
 
