@@ -9,11 +9,9 @@ header-img: "img/plane.jpg"
     <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
 </center>
 
-Ehhhh...I know it's not a good question.
 
-My Name is Ahri. You may find me in sites like douban.com / Goodreads.com / Facebook / Instagram / Twitter / Weibo.com, so on and so forth. It’s easy to know me. My short name is Ai., quite easy to remember, right?
 
-日常之中，多的是折腾劲，希望做一个坚持的人，也希望能添几分专注、几许勇敢。这就是我。
+我希望做一个认真，诚实，有责任的人。仅此而已。
 
 ——Ahri
 
