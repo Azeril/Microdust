@@ -2,7 +2,7 @@
 layout: post
 title: Yry
 categories: [blog ]
-tags: [Tool, Mac,]
+tags: [STH]
 description: 一个年度最佳新工具的榜单
 
 ---  
