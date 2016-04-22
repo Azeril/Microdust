@@ -1,28 +1,27 @@
 # Site settings
-title: Microdust
+title: Ahri的成长小屋
 header-img: "img/autumn2.jpg"
 tagline: "吉光片羽"  
 description: "在遙遠的地方 一切虔誠終必相遇"  
 baseurl: ""
-url: "http://azeril.me"  
+url: "xuyanxin.info"  
 #url: "http://localhost:4000"
+
+
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
+  name: "Ahri"
+  email: funnycodingxu@gmail.com
   bio: "明朝即長路 惜取此時心"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.ico
 
-douban_username: Azeril
-twitter_username: Azeril_Lapland  
-github_username: Azeril  
-facebook_username: Azeril_Lapland  
-weibo_username: Azeril  
-zhihu_username: Azeril  
+
+github_username: funnycoding  
+
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -40,7 +39,7 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+timezone: Asia/X'A
 
 # Title
 
@@ -53,7 +52,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "Ahri"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
@@ -61,9 +60,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : Ahri
   disqus :
-      short_name : Azeril
+      short_name : Ahri
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1
