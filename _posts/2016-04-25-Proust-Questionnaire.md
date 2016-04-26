@@ -114,11 +114,11 @@ Friends.Friends are the family we choose to have.
 
 24.What is your favorite occupation?
 
-Hangzhou.
+能让我保持好奇心，有时间和弹性去尝试去探索，创造出一些新奇好玩的东西。I think I know it now.
 
 25.What is your most marked characteristic?
 
-也许是涉猎广泛？
+沉静。
 
 26.What do you most value in your friends?
 
