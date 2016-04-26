@@ -118,7 +118,7 @@ Friends.Friends are the family we choose to have.
 
 25.What is your most marked characteristic?
 
-沉静。
+睿智。能够保持自我，不随波逐流，在熙熙攘攘中生活得从容的智慧。
 
 26.What do you most value in your friends?
 
