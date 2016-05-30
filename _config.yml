@@ -1,6 +1,6 @@
 # Site settings
-title: tank0317
-header-img: "img/autumn.jpg"
+title: Tank0317
+header-img: "img/bay.jpg"
 tagline: ""  
 description: "我是一只摔不死的蚂蚁！"  
 baseurl: ""
@@ -9,7 +9,7 @@ url: "http://tank0317.github.io/"
 
 # About/contact
 owner: 
-  name: "tank0317"
+  name: "Tank0317"
   email: fengweiyao0317@hotmail.com
   bio: "明朝即長路 惜取此時心"
 
