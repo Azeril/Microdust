@@ -1,9 +1,9 @@
 ---
 layout: post
-title: HTML中Block元素与Inline元素的区别
+title: CSS中position不同属性之间的区别
 categories: [blog ]
 tags: [front-end, ]
-description: 介绍Block元素与Inline元素的区别
+description: 介绍CSS中position不同属性之间的区别
 ---
 
 position属性有四个值可选：static, fixed, relative, absolute.相比之下，relative和absolute的使用更加复杂一点。   
