@@ -2,7 +2,7 @@
 layout:     post
 title:      "HTML中Block元素与Inline元素的区别"
 subtitle:   ""
-header-img: ""
+header-img: "img/autumn2.jpg"
 description: 
 categories: [blog ]
 tags: [front-end, ]
@@ -10,7 +10,7 @@ tags: [front-end, ]
 
 
 
-#Block元素
+# Block元素
 
 * 总是出现在前一个Block元素的左下方（重新开始一行）
 * **默认继承父级Block元素的width**
@@ -19,7 +19,7 @@ tags: [front-end, ]
 * 若height未设置，默认为所有子元素height之和
 * 忽略vertical-align属性
 
-#inline 元素
+# inline 元素
 
 * 总是出现在上一个元素的右边（除非必须换行的时候）
 * **width默认为content的宽度**
@@ -35,8 +35,7 @@ tags: [front-end, ]
 ![这张图片示范使用line-height改变inline元素的行高](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/1.PNG?raw=true)  
 
 此时我们再看一下什么是inline-block
-
-#inline-block元素
+# inline-block元素
 
 * 支持margin-top/bottom设置
 * padding-top/bottom设置会对行高产生影响
