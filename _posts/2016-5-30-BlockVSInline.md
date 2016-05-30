@@ -1,14 +1,10 @@
 ---
-layout:     post
-title:      "HTML中Block元素与Inline元素的区别"
-subtitle:   ""
-header-img: "img/autumn2.jpg"
-description: 
+layout: post
+title: HTML中Block元素与Inline元素的区别
 categories: [blog ]
 tags: [front-end, ]
+description: 介绍Block元素与Inline元素的区别
 ---
-
-
 
 # Block元素
 
