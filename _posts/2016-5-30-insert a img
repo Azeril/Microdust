@@ -1,0 +1,9 @@
+---
+layout: post
+title: 尝试添加图片
+categories: [blog ]
+tags: [book, list, ]
+description: 使用相对路径添加图片
+---
+
+![这是一个图片](../img/autumn.jpg)
