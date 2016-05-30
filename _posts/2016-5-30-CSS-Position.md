@@ -18,8 +18,12 @@ static定位对于所有元素都是默认的。这表明所有的元素默认�
 >     position: fixed;   
 
 * fixed position元素相对于视窗来定位
-* 最好所有fiexed position元素都有水平定位（left or right）和垂直定位（top or bottom）
 * fixed position元素大小不计入父元素height中。
 * fixed position block元素不会继承父元素的width
 * margin属性不起作用
-* 相对的定位属性（比如left, right或top, bottom）可以用来设置fixed position元素大小
+* 相对的定位属性（比如left, right或top, bottom）可以用来设置fixed position元素大小    
+   
+#### Best Practice: 对所有的fiexed元素使用水平和垂直定位    
+fixed元素会脱离文档流。因此通常必须配合水平(left or right)和垂直(top or bottom)定位来确定元素位置。    
+#### margin属性与之前工作方式不同    
+在static和relative position时，margin用来调整元素和兄弟元素之间的距离。但因为fixed元素脱离文档流，因此margin不再影响兄弟元素的布局。但此时margin依然可以对自身元素的位置进行调整。（但这完全可以由水平和垂直定位来替代）    
