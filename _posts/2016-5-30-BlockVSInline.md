@@ -1,14 +1,10 @@
 ---
-layout:     post
-title:      "HTML中Block元素与Inline元素的区别"
-subtitle:   ""
-header-img: "img/autumn2.jpg"
-description: 
+layout: post
+title: HTML中Block元素与Inline元素的区别
 categories: [blog ]
 tags: [front-end, ]
+description: 介绍Block元素与Inline元素的区别
 ---
-
-
 
 # Block元素
 
@@ -46,3 +42,7 @@ tags: [front-end, ]
 此时margin-top，padding-top/bottom都对行高产生了影响。   
 
 另外，对大多数浏览器而言，&lt;img&gt;&lt;botton&gt;&lt;input&gt;&lt;select&gt;元素都默认是display: inline-block。
+
+本文翻译自edx课程W3Cx: HTML5.0x HTML5 Introduction。
+[原文链接](https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+1T2016/courseware/306cfa0313a449a29b2dbcb0b2afcb86/1fe35eaba7534b5d86b69fa0e09494a3/)
+
