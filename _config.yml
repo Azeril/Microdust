@@ -2,7 +2,7 @@
 title: tank0317
 header-img: "img/autumn2.jpg"
 tagline: "吉光片羽"  
-description: "我是一只摔不死的蚂蚁"  
+description: ""  
 baseurl: ""
 url: "http://tank0317.github.io/"  
 #url: "http://localhost:4000"
@@ -19,7 +19,7 @@ favicon: img/favicon.ico
 
 douban_username: 
 twitter_username:   
-github_username:   
+github_username: tank0317
 facebook_username:   
 weibo_username: 
 zhihu_username:   
