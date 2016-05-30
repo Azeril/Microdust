@@ -42,6 +42,7 @@ tags: [front-end, ]
 * 支持width/height属性
 
 当把inline元素设置为display:inline-block时，我们看一下有什么变化。
-![这张图片表示当使用display:inline-block时对inine元素的影响](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/2.PNG?raw=true)   
+![这张图片表示当使用display:inline-block时对inine元素的影响](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/3.PNG?raw=true)  
+此时margin-top，padding-top/bottom都对行高产生了影响。   
 
 对大多数浏览器而言，&lt;img&gt;&lt;botton&gt;&lt;input&gt;&lt;select&gt;元素都默认是inline-block元素。
