@@ -32,7 +32,7 @@ inline 元素
 下面的例子我们可以看出，对于inline元素忽略margin-top，同时padding-top/bottom不会影响行高。  
 ![这张图片表明对于inline元素忽略margin-top，同时padding-top/bottom不会影响行高](img2)
 上图中我们会看到<span>部分的背景会和上下两侧发生重叠，此时我们可以用line-height来避免这种现象。  
-![这张图片示范使用line-height改变inline元素的行高](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/1.PNG)  
+![这张图片示范使用line-height改变inline元素的行高](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/1.PNG?raw=true)  
 
 此时我们再看一下什么是inline-block
 
