@@ -31,7 +31,7 @@ tags: [front-end, ]
 
 下面的例子我们可以看出，对于inline元素忽略margin-top，同时padding-top/bottom不会影响行高。  
 ![这张图片表明对于inline元素忽略margin-top，同时padding-top/bottom不会影响行高](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/2.PNG?raw=true)
-上图中我们会看到<span>部分的背景会和上下两侧发生重叠，此时我们可以用line-height来避免这种现象。  
+上图中我们会看到&lt;span&gt;部分的背景会和上下两侧发生重叠，此时我们可以用line-height来避免这种现象。  
 ![这张图片示范使用line-height改变inline元素的行高](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/1.PNG?raw=true)  
 
 此时我们再看一下什么是inline-block   
@@ -45,4 +45,4 @@ tags: [front-end, ]
 ![这张图片表示当使用display:inline-block时对inine元素的影响](https://github.com/tank0317/tank0317.github.io/blob/master/images/BlockVSInline/3.PNG?raw=true)  
 此时margin-top，padding-top/bottom都对行高产生了影响。   
 
-对大多数浏览器而言，&lt;img&gt;&lt;botton&gt;&lt;input&gt;&lt;select&gt;元素都默认是inline-block元素。
+另外，对大多数浏览器而言，&lt;img&gt;&lt;botton&gt;&lt;input&gt;&lt;select&gt;元素都默认是display: inline-block。
