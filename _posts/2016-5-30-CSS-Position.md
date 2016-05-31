@@ -43,6 +43,7 @@ relative position和默认的static差不多，他们都遵循正常的文档流
 #### 不再具有自动调整的能力    
 对于Block元素来说，默认继承父级元素的width。但是当使用margin-left或margin-right时，浏览器会对没有明确设置大小的block元素，进行自动的调整。但是当设置positon: relative后，通过left或top对元素定位，将不再有这种自动的调整。如下图所示   
 ![这里表示通过left或top对元素定位，将不再有这种自动的调整](https://github.com/tank0317/tank0317.github.io/blob/master/images/CSS-Position/2.PNG?raw=true)    
+
 #### 不能同时使用对立的定位属性    
 这一点对于fixed和absolute元素，同时使用可以设置元素的大小。而relative元素同时使用，不同浏览器可能会有不同的结果。   
 
