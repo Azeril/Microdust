@@ -1,28 +1,28 @@
-# Site settings
-title: Microdust
+﻿# Site settings
+title: 仓鼠屋
 header-img: "img/autumn2.jpg"
-tagline: "吉光片羽"  
-description: "在遙遠的地方 一切虔誠終必相遇"  
+tagline: "储藏室"  
+description: "吃吃吃睡睡睡玩玩玩"  
 baseurl: ""
 url: "http://azeril.me"  
 #url: "http://localhost:4000"
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
-  bio: "明朝即長路 惜取此時心"
+  name: "Chris贝小胖"
+  email: athoth@sina.cn
+  bio: "劝君惜取零食吃"
 
 # Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
+gavatar: http://o86oi1x1i.bkt.clouddn.com/%E5%A4%B4%E5%83%8F%E2%80%94%E2%80%94%E5%8D%97%E5%B0%8F%E9%B8%9F-%E6%89%8B%E6%9C%BA.jpg
 favicon: img/favicon.ico
 
-douban_username: Azeril
-twitter_username: Azeril_Lapland  
-github_username: Azeril  
-facebook_username: Azeril_Lapland  
-weibo_username: Azeril  
-zhihu_username: Azeril  
+douban_username: Chris贝小胖
+twitter_username: Chris贝小胖  
+github_username: Chris贝小胖  
+facebook_username: Chris贝小胖  
+weibo_username: Chris贝小胖  
+zhihu_username: Chris贝小胖  
 
 # Build settings  
 # use Github Flavored Markdown !important  
