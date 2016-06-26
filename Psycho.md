@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Tools"
-description: "我的小小工具箱"
+title: "Psycho"
+description: "Psycho Collection"
 header-img: "img/autumn.jpg"
 ---
 
