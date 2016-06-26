@@ -1,28 +1,28 @@
 ﻿# Site settings
-title: 仓鼠屋
+title: Kyubey的人类行为研究所
 header-img: "img/autumn2.jpg"
 tagline: "储藏室"  
-description: "吃吃吃睡睡睡玩玩玩"  
+description: "真搞不懂你们人类啊~"  
 baseurl: ""
 url: christianbei.github.io
 #url: "http://localhost:4000"
 
 # About/contact
 owner: 
-  name: "Chris贝小胖"
+  name: "Kyubey贝小胖"
   email: athoth@sina.cn
-  bio: "劝君惜取零食吃"
+  bio: "这有什么问题么"
 
 # Data
 gavatar: http://o86oi1x1i.bkt.clouddn.com/%E5%A4%B4%E5%83%8F%E2%80%94%E2%80%94%E5%8D%97%E5%B0%8F%E9%B8%9F-%E6%89%8B%E6%9C%BA.jpg
 favicon: img/favicon.ico
 
-douban_username: Chris贝小胖
-twitter_username: Chris贝小胖  
-github_username: Chris贝小胖  
-facebook_username: Chris贝小胖  
-weibo_username: Chris贝小胖  
-zhihu_username: Chris贝小胖  
+douban_username: Kyubey贝小胖
+twitter_username: Kyubey贝小胖  
+github_username: Kyubey贝小胖  
+facebook_username: Kyubey贝小胖  
+weibo_username: Kyubey贝小胖  
+zhihu_username: Kyubey贝小胖  
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -53,7 +53,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "Kyubey贝小胖"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
@@ -61,9 +61,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : Kyubey贝小胖
   disqus :
-      short_name : Azeril
+      short_name : Kyubey贝小胖
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1
