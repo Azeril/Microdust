@@ -7,4 +7,4 @@ header-img: "img/plane2.jpg"
 
 
 
-我的 [蝉游记](http://chanyouji.com/users/448398)
+[翻译作品](http://dna.successpartnerschina.com/Login.aspx?ln=ch)
