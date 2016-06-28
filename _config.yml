@@ -9,7 +9,7 @@ url: christianbei.github.io
 
 # About/contact
 owner: 
-  name: "Kyubei贝小胖"
+  name: "Kyubei贝贝"
   email: athoth@sina.cn
   bio: "这有什么问题么"
 
@@ -53,7 +53,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Kyubey贝小胖"
+      author: "Kyubei贝贝"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
