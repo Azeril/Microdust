@@ -1,7 +1,7 @@
 ﻿---
 layout: page
-title: "Criticism"
-description: "人类文艺批评"
+title: "Wokrs"
+description: "杂七杂八"
 header-img: "img/plane2.jpg"
 ---
 
