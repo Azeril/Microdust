@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Psycho"
-description: "Psycho Collection"
+description: "建设中"
 header-img: "img/autumn.jpg"
 ---
 
