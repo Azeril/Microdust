@@ -1,0 +1,105 @@
+---
+layout: null
+title: Sparks
+description: "Sparks"
+---
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{
+        background: rgba(0, 0, 0, 0.9);
+        animation: change 1s linear infinite;
+        font-size: 1em;
+        text-align: center;
+        line-height: 100%;
+      }
+      @keyframes change {
+        0%{color: green}
+        20%{color: red}
+        40%{color: blue}
+        60%{color: yellow}
+        80%{color: orange}
+        100%{color: gold}
+      }
+    </style>
+  </head>
+  <body>
+    我就是我 是颜色不一样的烟火
+  </body>
+  <script type="text/javascript">
+  var wHeight=document.documentElement.clientHeight||document.body.clientHeight;
+  var wWidth=document.documentElement.clientWidth||document.body.clientWidth;
+  var body_=document.querySelector('body');
+  body_.style.width=wWidth+'px';
+  body_.style.height=wHeight+'px';
+    function rgb(){
+      var rand=parseInt(Math.random()*16581375).toString(16);
+      while (rand<6) {
+        rand='0'+rand;
+      }
+      return rand;
+    }
+
+    // function rand(){
+    //   var ran=parseInt(Math.random()*8);
+    //   return ran;
+    // }
+    document.onclick=function(event){
+      var event=event||window.event;
+      var fire=document.createElement('div');
+      fire.style.position='absolute';
+      fire.style.width='10px';
+      fire.style.height='50px';
+      fire.style.borderRadius='50%';
+      fire.style.background='pink';
+      fire.style.left=event.clientX+'px';
+      fire.style.top=wHeight+'px';
+      body_.appendChild(fire);
+      fire.timer=setInterval(function(){
+        //  fire.offsetTop-=10;
+         fire.style.top=fire.offsetTop-5+'px';
+         if (fire.offsetTop<=event.clientY) {
+           clearInterval(fire.timer);
+           body_.removeChild(fire);
+           var arr=[];
+          //  var ran=rand();
+           for (var i = 0; i < 50; i++) {
+             var flower=document.createElement('div');
+             flower.style.width='10px';
+             flower.style.height='10px';
+            //  flower.innerHTML=arrs[ran];
+             flower.style.borderRadius='50%';
+             flower.style.background='#'+rgb();
+             flower.style.position='absolute';
+             flower.style.top=event.clientY+'px';
+             flower.style.left=event.clientX+'px';
+             flower.speedX=Math.random()*20-10;
+             flower.speedY=Math.random()*20-10;
+             arr.push(flower);
+             body_.appendChild(flower);
+           }
+           var newTimer=setInterval(function(){
+             var index=0;
+              for (var i = 0; i < arr.length; i++) {
+                if (arr[i]==null) {
+                  continue;
+                }
+                arr[i].style.left=arr[i].offsetLeft+arr[i].speedX+'px';
+                arr[i].style.top=arr[i].offsetTop+arr[i].speedY+'px';
+                arr[i].speedY++;
+                if (arr[i].offsetLeft<0||arr[i].offsetLeft>wWidth||arr[i].offsetTop>wHeight) {
+                  body_.removeChild(arr[i]);
+                  arr[i]=null;
+                }
+                index++;
+              }
+              if (index==0) {
+                clearInterval(newTimer);
+              }
+           },30)
+         }
+      },10)
+    }
+  </script>
