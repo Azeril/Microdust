@@ -1,28 +1,28 @@
 # Site settings
-title: Microdust
-header-img: "img/autumn2.jpg"
-tagline: "吉光片羽"  
-description: "在遙遠的地方 一切虔誠終必相遇"  
+title: Tank0317
+header-img: "img/alone.jpg"
+tagline: ""  
+description: "我是一只摔不死的蚂蚁！"  
 baseurl: ""
-url: "http://azeril.me"  
+url: "http://tank0317.github.io/"  
 #url: "http://localhost:4000"
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
+  name: "Tank0317"
+  email: fengweiyao0317@hotmail.com
   bio: "明朝即長路 惜取此時心"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.ico
 
-douban_username: Azeril
-twitter_username: Azeril_Lapland  
-github_username: Azeril  
-facebook_username: Azeril_Lapland  
-weibo_username: Azeril  
-zhihu_username: Azeril  
+douban_username: 
+twitter_username:   
+github_username: tank0317
+facebook_username:   
+weibo_username: 
+zhihu_username:   
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -53,7 +53,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "tank0317"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
@@ -61,9 +61,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : Azeril
+    short_name : tank0317
   disqus :
-      short_name : Azeril
+      short_name : tank0317
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1
