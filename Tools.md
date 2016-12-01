@@ -19,7 +19,7 @@ header-img: "img/autumn.jpg"
 
 [前端乱炖](http://www.html-js.com/)
 
-[OurJS](http://ourjs.com/)，顾名思义，基本都是JS方面的文章
+[OurJS](http://ourjs.com/)   `顾名思义，基本都是JS方面的文章`
 
 
 ### 技能网站
@@ -62,13 +62,13 @@ header-img: "img/autumn.jpg"
 
 [Dribble](https://dribbble.com/)
 
-[Pinterest](https://www.pinterest.com/)，这三个网站都是找图找灵感的好地方
+[Pinterest](https://www.pinterest.com/)   `这三个网站都是找图找灵感的好地方`
 
-[Awwwards](http://www.awwwards.com/)，一个专门为设计精美的网站以及富有创意的网站颁奖的网站
+[Awwwards](http://www.awwwards.com/)    `一个专门为设计精美的网站以及富有创意的网站颁奖的网站`
 
-[花瓣网](http://huaban.com/)，找灵感找素材
+[花瓣网](http://huaban.com/)   `找灵感找素材 `
 
-[站酷（ZCOOL）](http://www.zcool.com.cn/)，国内的设计师互动平台
+[站酷（ZCOOL）](http://www.zcool.com.cn/)   `国内的设计师互动平台`
 
 
 ### 摄影网站
@@ -88,8 +88,8 @@ header-img: "img/autumn.jpg"
 
 ### 其他
 
-[七牛云](http://www.qiniu.com/)，可作为图床
+  [七牛云](http://www.qiniu.com/)   `可作为图床`
 
-[Lantern下载地址](https://github.com/getlantern/forum)，翻墙神器，简单好用
+[Lantern下载地址](https://github.com/getlantern/forum)    `翻墙神器，简单好用`
 
 [17素材网](http://www.17sucai.com/)
