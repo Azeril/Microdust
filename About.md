@@ -6,7 +6,7 @@ header-img: "img/plane.jpg"
 ---
 
 <center>
-    <p><img src="Tan12.github.io/img/Zero.png" alt="myImg" /></p>
+    <p><img src="http://ohhuvbasf.bkt.clouddn.com/Zero.png" alt="myImg" /></p>
 </center>
 
 <center>
