@@ -17,6 +17,8 @@ header-img: "img/autumn.jpg"
 
 [前端圈](https://fequan.com/)
 
+[前端乱炖](http://www.html-js.com/)
+
 [OurJS](http://ourjs.com/)，顾名思义，基本都是JS方面的文章
 
 
@@ -29,12 +31,22 @@ header-img: "img/autumn.jpg"
 
 [推酷](http://www.tuicool.com/)
 
+[segmentfault](https://segmentfault.com/)
+
+[伯乐在线](http://www.jobbole.com/)
+
+[开发者头条](https://toutiao.io/)
+
+[CSDN](http://www.csdn.net/)
+
 
 ##学习网站
 
 [慕课网](http://www.imooc.com/)
 
 [网易云课堂](http://study.163.com/)
+
+[菜鸟教程](http://www.runoob.com/)
 
 
 ##托管平台
@@ -80,4 +92,4 @@ header-img: "img/autumn.jpg"
 
 [Lantern下载地址](https://github.com/getlantern/forum)，翻墙神器，简单好用
 
-
+[17素材网](http://www.17sucai.com/)
