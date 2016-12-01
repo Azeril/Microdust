@@ -7,7 +7,7 @@ header-img: "img/autumn.jpg"
 
 ##前端网站
 
-[前端网（W3Cfuns）](http://www.w3cfuns.com/）
+[前端网](http://www.w3cfuns.com/)
 
 [前端资源网](http://www.58img.com/)
 
