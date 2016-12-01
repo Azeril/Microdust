@@ -1,117 +1,83 @@
 ---
 layout: page
 title: "Tools"
-description: "我的小小工具箱"
+description: "常用网站收集"
 header-img: "img/autumn.jpg"
 ---
 
+##前端网站
 
-### Rule 
+[前端网（W3Cfuns）](http://www.w3cfuns.com/）
 
-[W3C Editor's Draft](http://w3c.github.io/clreq/#glyphs_sizes_and_positions_in_character_faces_of_punctuation_marks) 中文排版  
+[前端资源网](http://www.58img.com/)
 
-[AQicn](http://aqicn.org/city/) PM2.5
+[前端里](http://www.yyyweb.com/)
 
-[StateAir](http://stateair.net/) U.S. Department of State Air Quality Monitoring Program
+[前端开发博客](http://caibaojian.com/)
 
-### Tools 
+[前端圈](https://fequan.com/)
 
-[Homebrew](http://brew.sh/) software package management
+[OurJS](http://ourjs.com/)，顾名思义，基本都是JS方面的文章
 
-[Dillinger](http://dillinger.io/) 
 
-[StackEdit](https://stackedit.io/editor#) 
+##技能网站
 
-[Color-hex Color-Codes](http://www.color-hex.com/)  
+[千里码](http://www.qlcoder.com/)
 
-[Screen rule](http://azeril.me/Screenrule/)
 
-[Interview](http://azeril.me/Interview/)
+##资讯网站
 
-[Strut.io](http://strut.io/)
+[推酷](http://www.tuicool.com/)
 
-### Service 
 
-[GitHub](https://github.com/)
+##学习网站
 
-[Google Analytics](https://analytics.google.com/analytics/web/)
+[慕课网](http://www.imooc.com/)
 
-[Dropbox](https://www.dropbox.com/)  Offline version：[Download](https://www.dropbox.com/downloading?plat=mac&full=1)  
+[网易云课堂](http://study.163.com/)
 
-[Qiniu](http://qiniu.com)
 
-[Imgur](http://imgur.com/)  
+##托管平台
 
-[Photobucket](photobucket.com)
+[github](https://github.com/)
 
-[PasswordMeter](http://www.passwordmeter.com)
+[Coding](https://coding.net/)
 
-[Evernote](https://www.evernote.com/)  
 
-[IFTTT](https://ifttt.com/) 
+##设计网站
 
-[NeteaseMusic](http://music.163.com/)  
+[Behance](https://www.behance.net/)
 
-[Duolingo](duolingo.com) Language Learning  
+[Dribble](https://dribbble.com/)
 
-[ChromeSync](https://www.google.com/settings/chrome/sync) Chrome 同步设置
+[Pinterest](https://www.pinterest.com/)，这三个网站都是找图找灵感的好地方
 
-[Alexa](http://www.alexa.com/) 网站查询
+[Awwwards](http://www.awwwards.com/)，一个专门为设计精美的网站以及富有创意的网站颁奖的网站
 
-[Archive.org](http://archive.org/web/web.php) 时光机
+[花瓣网](http://huaban.com/)，找灵感找素材
 
-### Convert 
+[站酷（ZCOOL）](http://www.zcool.com.cn/)，国内的设计师互动平台
 
-[jp2a](https://csl.name/jp2a/) JPEG to ASCII converter
 
-[Shorten](http://www.waqiang.com/index.php/url/shorten) 网址转换
+##摄影网站
 
-[Damotou](http://www.damotou.com/index.php) 在线转换工具 Icon 图标
+[图虫网](https://tuchong.com/)
 
-[Convertio](https://convertio.co/zh/csv-xls/) 在线转换 csv2xls (消除中文字符乱码)  
+[POCO摄影社区](http://photo.poco.cn/)
 
-[直書](http://antiintelgather.github.io/) 橫轉直排版  
+[蜂鸟网](http://www.fengniao.com/)
 
-[Speedyshare](http://www.speedyshare.com/) 在线文件分享  
+[摄影之友](http://fotomen.cn/syzy/)
 
-[Feedex](http://feedex.net/) Rss 烧录  
+[大影家](http://dyj88c.lofter.com/)
 
-[ClipConverter](http://www.clipconverter.cc/) 转换和下载 Youtube 视频
+[蝉游记](http://chanyouji.com/)
 
-[Worditout](http://worditout.com/) Tags Cloud
 
-[草料二维码生成器](http://cli.im/)
+##其他
 
-### Resources
+[七牛云](http://www.qiniu.com/)，可作为图床
 
-[IT-eBooks](http://it-ebooks.info/)
-
-[Library Genesis](http://gen.lib.rus.ec/)  
-
-[bookfi.org](http://en.bookfi.org/)  
-
-[Mobilism](http://forum.mobilism.org/viewforum.php?f=120&sid=5d7797456253aa3d63635b4f492ad1ce)  
-
-[康熙字典](http://www.zdic.net/z/kxzd/)  
-
-### Just Try 
-
-[Rainy Mood](http://www.rainymood.com/)   
-
-[Sad for Japan](http://www.sadforjapan.com/)  
-
-[Norse IPViking Live](http://map.ipviking.com/)  
-
-[Random.org](https://www.random.org/) 
-
-[Breathing Earth](http://www.breathingearth.net/)  
-
-[360° Aerial Panorama](http://www.airpano.com/)  3D Virtual Tours Around the World  
-
-[Global Language Network](http://language.media.mit.edu/visualizations/books)  
-
-[iPanda](http://live.ipanda.com/) Panda live
-
-[The Scale of Universe2](http://htwins.net/scale2/)
+[Lantern下载地址](https://github.com/getlantern/forum)，翻墙神器，简单好用
 
 
