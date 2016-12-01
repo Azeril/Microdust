@@ -6,14 +6,8 @@ header-img: "img/plane.jpg"
 ---
 
 <center>
-    <p><img src="Tan12.github.io/img/Zero.png" align="center"></p>
+    <p><img src="Tan12.github.io/img/Zero.png" alt="myImg" /></p>
 </center>
-
-
-<center>
-    ![Aaron Swartz](https://Tan12.github.io/img/Zero.png)
-</center>
-
 
 <center>
 我兴趣广泛，喜欢很多东西，如摄影、绘画、阅读，我喜欢将我的生活过得多姿多彩。
