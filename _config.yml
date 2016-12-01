@@ -4,14 +4,14 @@ header-img: "img/autumn2.jpg"
 tagline: "吉光片羽"  
 description: "不会玩摄影的程序员不是好画家"  
 baseurl: ""
-url: "http://azeril.me"  
+url: ""  
 #url: "http://localhost:4000"
 
 # About/contact
 owner: 
   name: "Kimo"
   email: tanlx127@gmial.com
-  bio: "明朝即長路 惜取此時心"
+  bio: ""
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
@@ -53,7 +53,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Azeril"
+      author: "Kimo"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
