@@ -2,7 +2,7 @@
 layout: post
 title: 按钮点击后出现边框该怎么办
 categories: [blog ]
-tags: [GitHub, ]
+tags: [CSS, 兼容性, ]
 description:  记录一下自己遇到的问题
 ---
 
