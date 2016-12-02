@@ -28,6 +28,9 @@ h4 {
 a {
   color: #404040;
 }
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+:focus { outline:0; }
 a:hover,
 a:focus {
   color: #0085a1;
