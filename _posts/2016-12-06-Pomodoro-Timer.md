@@ -12,6 +12,7 @@ description:  制作一个倒计时时钟
 
 番茄钟其实就是一个倒计时的时钟，你可以加减倒计时的时间，每一次倒计时结束会有一个时间间隔，这个break time也是可以加减的，break time结束后继续倒计时。
 
+<img src="http://ohhuvbasf.bkt.clouddn.com/161206-01.png" />
 
 我们要实现的功能有：
 
@@ -150,7 +151,6 @@ button, .timer{
 
 这个就不详细说了，下面主要讲一下怎么使用angularJS来实现这个倒计时的功能。
 
-
 1、 引进angular.min.js跟jquery-3.1.1.min.js之后，将整个body作为AngularJS脚本作用域及控制器，并在需要动态改变数据的地方加上angular js变量。
 
 ```
@@ -201,6 +201,8 @@ app.controller('timerCtrl', function ($scope, $interval) {
 ```
 
 2、首先来实现对时长的加减。如图，点击“-”break length会减1，点击“+”break length会加1。
+
+<img src="http://ohhuvbasf.bkt.clouddn.com/161206-02.png" />
 
 定义breakLengthChange 函数，当计时器没有运行（runTime为false）且sessionName是‘break’时，方可对breakLength进行操作，并限定breakLength的值最小为1，重新给timeLeft、seconds、originTime赋值。
 
@@ -306,5 +308,5 @@ $scope.toggleTimer = function () {
 
 好了，到这就大功告成了！
 
-
+<img src="http://ohhuvbasf.bkt.clouddn.com/161206-03.gif" />
 
