@@ -310,3 +310,4 @@ $scope.toggleTimer = function () {
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/161206-03.gif" />
 
+代码下载地址：https://github.com/Tan12/learn-AngularJS/tree/master/pomodoroTimer
