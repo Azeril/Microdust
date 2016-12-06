@@ -150,7 +150,8 @@ button, .timer{
 
 这个就不详细说了，下面主要讲一下怎么使用angularJS来实现这个倒计时的功能。
 
-1. 引进angular.min.js跟jquery-3.1.1.min.js之后，将整个body作为AngularJS脚本作用域及控制器，并在需要动态改变数据的地方加上angular js变量。
+
+1、 引进angular.min.js跟jquery-3.1.1.min.js之后，将整个body作为AngularJS脚本作用域及控制器，并在需要动态改变数据的地方加上angular js变量。
 
 ```
 <body ng-app="timerApp" ng-controller="timerCtrl">
@@ -182,6 +183,7 @@ button, .timer{
 在js中定义初始变量值：
 
 js代码：
+
 ```
 var app = angular.module('timerApp', []);
 app.controller('timerCtrl', function ($scope, $interval) {
@@ -198,9 +200,10 @@ app.controller('timerCtrl', function ($scope, $interval) {
 }
 ```
 
-2. 首先来实现对时长的加减。如图，点击“-”break length会减1，点击“+”break length会加1。
+2、首先来实现对时长的加减。如图，点击“-”break length会减1，点击“+”break length会加1。
 
 定义breakLengthChange 函数，当计时器没有运行（runTime为false）且sessionName是‘break’时，方可对breakLength进行操作，并限定breakLength的值最小为1，重新给timeLeft、seconds、originTime赋值。
+
 ```
 $scope.breakLengthChange = function (num) {
     if(!runTimer){
@@ -218,15 +221,18 @@ $scope.breakLengthChange = function (num) {
 ```
 
 在html文件中为‘-’和‘+’添加点击事件，如：
+
 ```
 <button class="minus" ng-click="breakLengthChange(-1)">-</button>
 <button class="add" ng-click="breakLengthChange(1)">+</button>
 ```
+
 实现对breakLength的更改。
 
 sessionLengthChange 函数跟breakLengthChange功能一样，就不重复说了。
 
-3. 接下来实现秒数转H:M:S格式，函数是secondsToHms()，time是传进来的秒数，换算成时分秒的公式很简单，时间是以60为进度的，只要不断除以60就好。最后是返回H:M:S这样的格式，这里用的是三元运算符，意思是，如果h存在的话就h加上“：”再加上m，否则直接m开头，m的判断一样。
+3、接下来实现秒数转H:M:S格式，函数是secondsToHms()，time是传进来的秒数，换算成时分秒的公式很简单，时间是以60为进度的，只要不断除以60就好。最后是返回H:M:S这样的格式，这里用的是三元运算符，意思是，如果h存在的话就h加上“：”再加上m，否则直接m开头，m的判断一样。
+
 ```
 function secondsToHms(time) {
     var h = Math.floor(time/3600),
@@ -239,9 +245,10 @@ function secondsToHms(time) {
 }
 ```
 
-4. 然后是实现倒计时函数（updateTimer()），因为秒数是递减的，所以seconds每次都减1，当秒数小于0了就要切换倒计时类型了，背景填充颜色也要随之切换。填充百分率即当前流失时间占原始时间的百分比，即[（originTime - timeLeft）/originTime ]*100% => (1 - seconds/ori) * 100%。
+4、然后是实现倒计时函数（updateTimer()），因为秒数是递减的，所以seconds每次都减1，当秒数小于0了就要切换倒计时类型了，背景填充颜色也要随之切换。填充百分率即当前流失时间占原始时间的百分比，即[（originTime - timeLeft）/originTime ]*100% => (1 - seconds/ori) * 100%。
 
 具体代码如下：
+
 ```
 function updateTimer() {
     seconds -= 1;
@@ -272,11 +279,13 @@ function updateTimer() {
 ```
 
 在html代码中加上ng-style，实现背景随着时间减少不断填充。
+
 ```
 <span class="fill" ng-style="{'height':fillHeight,'background-color':fillColor}"></span>
 ```
 
-5. 最后就是实现切换倒计时类型的函数了，点击时钟，如果倒计时没有开始，则调用updateTime()，并为其添加计时器1s钟执行一次，实现倒计时效果。反之暂停，移除计时器。
+5、最后就是实现切换倒计时类型的函数了，点击时钟，如果倒计时没有开始，则调用updateTime()，并为其添加计时器1s钟执行一次，实现倒计时效果。反之暂停，移除计时器。
+
 ```
 $scope.toggleTimer = function () {
     if(!runTimer){
@@ -290,6 +299,7 @@ $scope.toggleTimer = function () {
 ```
 
 为.timer添加n-click事件，即可实现暂停开始倒计时：
+
 ```
 <div class="timer" ng-click="toggleTimer()">
 ```
