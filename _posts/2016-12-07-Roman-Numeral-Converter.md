@@ -27,31 +27,33 @@ description:  解决“Don't make functions within loop”错误
 由此，我们可以对高于三次的基本字符进行先处理：
 
 <center>
-    <table border='0'>
+    <table border='0' text-align='center'>
         <tr>
             <td>I</td>
-            <td>1</td>
             <td>IV</td>
-            <td>4</td>
             <td>V</td>
-            <td>5</td>
             <td>IX</td>
-            <td>9</td>
             <td>X</td>
-            <td>10</td>
             <td>XL</td>
-            <td>40</td>
             <td>L</td>
-            <td>50</td>
             <td>XC</td>
-            <td>90</td>
             <td>C</td>
-            <td>100</td>
             <td>D</td>
-            <td>500</td>
             <td>CM</td>
-            <td>900</td>
             <td>M</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>4</td>
+            <td>5</td>
+            <td>9</td>
+            <td>10</td>
+            <td>40</td>
+            <td>50</td>
+            <td>90</td>
+            <td>100</td>
+            <td>500</td>
+            <td>900</td>
             <td>1000</td>
         </tr>
     </table>
