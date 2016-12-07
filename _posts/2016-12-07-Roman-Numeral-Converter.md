@@ -27,7 +27,7 @@ description:  解决“Don't make functions within loop”错误
 由此，我们可以对高于三次的基本字符进行先处理：
 
 <center>
-    <table border='0' text-align='center'>
+    <table>
         <tr>
             <td>I</td>
             <td>IV</td>
