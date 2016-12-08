@@ -133,6 +133,6 @@ var re = setTimeout(function(){
 
 源码地址：https://github.com/Tan12/HTML-CSS3/blob/master/pubuliu/demo-try.html
 
-参考文章：http://www.cnblogs.com/fuhuixiang/p/4340205.html
+参考文章1：http://www.cnblogs.com/fuhuixiang/p/4340205.html
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  http://cued.xunlei.com/log031
+参考文章2：http://cued.xunlei.com/log031
