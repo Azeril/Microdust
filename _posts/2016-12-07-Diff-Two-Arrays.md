@@ -61,6 +61,6 @@ diff([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 
 ```
 
-题目网址：https://www.freecodecamp.cn/challenges/diff-two-arrays
+题目网址：<https://www.freecodecamp.cn/challenges/diff-two-arrays>
 
-参考文章：http://jslint.fantasy.codes/dont-make-functions-within-a-loop/
+参考文章：<http://jslint.fantasy.codes/dont-make-functions-within-a-loop/>
