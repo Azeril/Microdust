@@ -131,10 +131,10 @@ var re = setTimeout(function(){
       }, 100);
 ```
 
-源码地址：https://github.com/Tan12/HTML-CSS3/blob/master/pubuliu/demo-try.html
+源码地址：<https://github.com/Tan12/HTML-CSS3/blob/master/pubuliu/demo-try.html>
 
 参考文章：
 
-* http://www.cnblogs.com/fuhuixiang/p/4340205.html
+* <http://www.cnblogs.com/fuhuixiang/p/4340205.html>
 
-* http://cued.xunlei.com/log031
+* <http://cued.xunlei.com/log031>
