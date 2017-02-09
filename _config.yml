@@ -7,8 +7,8 @@ baseurl: ""
 # url: "http://azeril.me"  
 # url: "http://localhost:4000"
 
-url: https://stardust.cat
-enforce_ssl: blog.stardust.cat
+url: http://stardust.cat
+# enforce_ssl: 
 
 # About/contact
 owner: 
