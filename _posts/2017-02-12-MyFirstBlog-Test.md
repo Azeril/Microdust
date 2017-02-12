@@ -24,7 +24,7 @@ Linux的crontab命令
 > PATH=/sbin:/bin:/usr/sbin:/usr/bin
 > MAILTO=""HOME=/
 >  
-> # run-parts
+> \#run-parts
 > 51 * * * * root run-parts /etc/cron.hourly
 > 24 7 * * * root run-parts /etc/cron.daily
 > 22 4 * * 0 root run-parts /etc/cron.weekly
