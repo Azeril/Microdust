@@ -1,5 +1,5 @@
 # Site settings
-title: 郭航的个人博客
+title: 你看见我的小熊了吗
 header-img: "img/bay.jpg"
 tagline: "个人博客"  
 description: "我们很努力活得精彩 好让看起来活得精彩"  
@@ -61,9 +61,9 @@ defaults:
 comments :
   provider : duoshuo
   duoshuo :
-    short_name : GuoHang
+    short_name : guohang
   disqus :
-      short_name : GuoHang
+      short_name : guohang
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1
