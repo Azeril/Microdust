@@ -1,8 +1,8 @@
 ---  
 layout: post  
 title: Django 模板进阶   
-categories: [blog ]  
-tags: [Django,  ]
+categories: [blog, ]  
+tags: [Django, ]
 description: 「Django 模板进阶」  
 --- 
 
