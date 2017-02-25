@@ -35,6 +35,7 @@ t.join()
 print('thread %s ended.' % threading.current_thread().name)
 ```
 执行结果如下：
+```
 thread MainThread is running...
 thread LoopThread is running...
 thread LoopThread >>> 1
