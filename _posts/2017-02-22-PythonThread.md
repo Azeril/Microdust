@@ -88,8 +88,8 @@ balance = balance + n
 
 也分两步：
 
-1.计算`balance + n`，存入临时变量中；
-2.将临时变量的值赋给`balance`。
+- 计算`balance + n`，存入临时变量中；
+- 将临时变量的值赋给`balance`。  
 
 也就是可以看成：
 
