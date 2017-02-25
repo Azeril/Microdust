@@ -127,7 +127,7 @@ run task 339 * 339...
 run task 7866 * 7866...
 worker exit.
 ```
-`task_worker.py进`程结束，在`task_master.py`进程中会继续打印出结果：
+`task_worker.py`进程结束，在`task_master.py`进程中会继续打印出结果：
 ```
 Result: 3411 * 3411 = 11634921
 Result: 1605 * 1605 = 2576025
