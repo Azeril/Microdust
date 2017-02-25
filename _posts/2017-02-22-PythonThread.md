@@ -90,12 +90,17 @@ balance = balance + n
 
 - 计算`balance + n`，存入临时变量中；
 - 将临时变量的值赋给`balance`。
+
+
 也就是可以看成：
+
 ```
 x = balance + n
 balance = x
 ```
+
 由于x是局部变量，两个线程各自都有自己的x，当代码正常执行时：
+
 ```
 初始值 balance = 0
 
