@@ -88,8 +88,8 @@ ThreadLocal最常用的地方就是为每个线程绑定一个数据库连接，
 
 ### 小结
 
-一个`ThreadLocal`变量虽然是全局变量，但每个线程都只能读写自己线程的独立副本，互不干扰。`ThreadLocal`解决了参数在一个线程中各个函数之间互相传递的问题。
+一个`ThreadLocal`变量虽然是全局变量，但每个线程都只能读写自己线程的独立副本，互不干扰。`ThreadLocal`解决了参数在一个线程中各个函数之间互相传递的问题。0.0
 
 ### 参考源码
 
-[thread6.py]({{ site.url }}/code/thread6.py)
+[thread6.py](http://guohang.me/code/thread6.py)
