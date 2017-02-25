@@ -154,5 +154,5 @@ Python的分布式进程接口简单，封装良好，适合需要把繁重任�
 
 注意Queue的作用是用来传递任务和接收结果，每个任务的描述数据量要尽量小。比如发送一个处理日志文件的任务，就不要发送几百兆的日志文件本身，而是发送日志文件存放的完整路径，由Worker进程再去共享的磁盘上读取文件。
 ### 参考源码
-[task_master.py](http://guohang.me/code/task_master.py)
+[task_master.py](http://guohang.me/code/task_master.py)  
 [task_worker.py](http://guohang.me/code/task_worker.py)
