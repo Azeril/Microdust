@@ -1,8 +1,8 @@
 # Site settings
-title: Microdust
+title: Beiliang
 header-img: "img/autumn2.jpg"
-tagline: "吉光片羽"  
-description: "在遙遠的地方 一切虔誠終必相遇"  
+tagline: "极光"  
+description: "一丝不苟的男人的魅力，仅次于一丝不挂的女人"  
 baseurl: ""
 # url: "http://azeril.me"  
 # url: "http://localhost:4000"
@@ -12,15 +12,15 @@ url: http://stardust.cat
 
 # About/contact
 owner: 
-  name: "Azeril"
-  email: azeril@live.cn
+  name: "Beiliang"
+  email: 969645133@qq.com
   bio: "明朝即長路 惜取此時心"
 
 # Data
 gavatar: https://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.ico
 
-douban_username: Azeril
+douban_username: 
 twitter_username: Azeril_Lapland  
 github_username: Azeril  
 facebook_username: Azeril_Lapland  
