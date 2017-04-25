@@ -13,6 +13,7 @@ win+R调出运行对话框，输入msconfig
 <img src="http://ohhuvbasf.bkt.clouddn.com/170425-1.png" />
 
 然后确定，进入系统配置，将windows update这项取消掉，确定并重启电脑。
+
 <img src="http://ohhuvbasf.bkt.clouddn.com/170425-2.png" />
 
 然后重新打开ppt就能正常播放了！
