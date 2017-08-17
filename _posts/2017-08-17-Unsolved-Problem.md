@@ -2,7 +2,7 @@
 layout: post
 title: 一个未解决的问题
 categories: [blog ]
-tags: [Angularjs, ]
+tags: [AngularJS, ]
 description:  看以后能不能找到解决办法
 ---
 
