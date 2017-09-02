@@ -23,4 +23,4 @@ rollbackFailedOptional: verb npm-session 2170b11369adfa7
 npm config rm proxy
 npm config rm https-proxy
 ```
-
+<img src="http://ohhuvbasf.bkt.clouddn.com/170903-2.PNG" />
