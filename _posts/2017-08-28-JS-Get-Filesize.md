@@ -2,7 +2,7 @@
 layout: post
 title: js获取文件大小
 categories: [blog ]
-tags: [Javascript, ]
+tags: [JavaScript, ]
 description:  用于限制上传文件大小
 ---
 
