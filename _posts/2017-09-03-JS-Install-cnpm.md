@@ -22,7 +22,7 @@ rollbackFailedOptional: verb npm-session 2170b11369adfa7
 ```
 npm config rm proxy
 npm config rm https-proxy
-···
+```
 
 虽然我执行完这两条命令之后安装cnpm还会报错，不过cnpm能用了：
 
