@@ -2,7 +2,7 @@
 layout: post
 title: 安装淘宝npm镜像
 categories: [blog ]
-tags: [AngularJS, Node.js,]
+tags: [Node.js, ]
 description:  安装cnpm出错的解决方案
 ---
 
