@@ -12,7 +12,7 @@ description:  大概讲了一下怎么做的这个客服系统
 
 GatewayWorker下载及手册地址：http://www.workerman.net/doc。
 
-要使用workerman系列框架需要你电脑的php版本 >=5.3.3，下载php地址：http://windows.php.net/download，下载后配置环境变量的步骤如图：
+要使用workerman系列框架需要你电脑的php版本 >=5.3.3，下载php地址：http://windows.php.net/download ，下载后配置环境变量的步骤如图：
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/install-php.gif" />
 
@@ -20,7 +20,7 @@ GatewayWorker下载及手册地址：http://www.workerman.net/doc。
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/chatonline-1.png" />
 
-这个客服系统是一个客服对应多个用户的。在浏览器里面访问http://localhost:2347/就可以进入前台页面，用户点击如下图浮动的客服图标即可发起聊天，若后台客服登录了，则弹出聊天框，否则提示客服不在线。
+这个客服系统是一个客服对应多个用户的。在浏览器里面访问 http://localhost:2347 就可以进入前台页面，用户点击如下图浮动的客服图标即可发起聊天，若后台客服登录了，则弹出聊天框，否则提示客服不在线。
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/chatonline-2.png" />
 
@@ -30,7 +30,7 @@ GatewayWorker下载及手册地址：http://www.workerman.net/doc。
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/chatonline-4.png" /> 
 
-在浏览器里面访问http://localhost:2347/server.html即可访问后台客服聊天界面，具体样式如下，比较简单，嘿嘿。
+在浏览器里面访问 http://localhost:2347/server.html 即可访问后台客服聊天界面，具体样式如下，比较简单，嘿嘿。
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/chatonline-5.png" /> 
 
