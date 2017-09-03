@@ -42,7 +42,7 @@ GatewayWorker下载及手册地址：http://www.workerman.net/doc。
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/chatonline-7.png" /> 
 
-还有就是，客服跟用户聊天时，聊天框始终显示最新消息，及聊天框始终置底。
+还有就是，客服跟用户聊天时，聊天框始终显示最新消息，及聊天框滚动条始终置底。
 
 大概的功能就是上面这些，下面大概讲一下代码吧。
 
