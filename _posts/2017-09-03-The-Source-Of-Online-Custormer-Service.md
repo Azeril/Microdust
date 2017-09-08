@@ -17,4 +17,4 @@ description:  毕竟也是自己一番心血，就分享出来吧
 
 不管怎样，也是自己费了一番心血的东西，当初找个合适的框架都找了一天，于是我决定写个教程分享一下。想当初，想找个客服系统的demo也没找到合适的，大多数demo都是聊天室，希望自己能做出点贡献吧。
 
-代码下载地址：https://github.com/Tan12/online-custormer-service
+代码下载地址：<https://github.com/Tan12/online-custormer-service>
