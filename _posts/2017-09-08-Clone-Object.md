@@ -12,7 +12,7 @@ description: js复制对象问题
 
 想要得到一个拷贝的对象可以使用下面两种方法。
 
-（其实是网上找的，地址在这：http://www.cnblogs.com/spring4/archive/2012/03/29/2483708.html）
+（其实是网上找的，地址在这：[http://www.cnblogs.com/spring4/archive/2012/03/29/2483708.html]）
 
 方法一：定义一个clone方法来实现。
 ```
