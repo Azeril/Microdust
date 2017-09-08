@@ -8,11 +8,11 @@ description:  大概讲了一下怎么做的这个客服系统
 
 这个客服系统我采用了GatewayWorker这个php框架，它是基于Workerman开发的一个项目框架，用于快速开发TCP长连接应用，借助它我很容易就实现了前后台的通信。
 
-客服系统下载地址：https://github.com/Tan12/online-custormer-service。
+客服系统下载地址：<https://github.com/Tan12/online-custormer-service>。
 
-GatewayWorker下载及手册地址：http://www.workerman.net/doc。
+GatewayWorker下载及手册地址：<http://www.workerman.net/doc>。
 
-要使用workerman系列框架需要你电脑的php版本 >=5.3.3，下载php地址：http://windows.php.net/download ，下载后配置环境变量的步骤如图：
+要使用workerman系列框架需要你电脑的php版本 >=5.3.3，下载php地址：<http://windows.php.net/download> ，下载后配置环境变量的步骤如图：
 
 <img src="http://ohhuvbasf.bkt.clouddn.com/install-php.gif" />
 
