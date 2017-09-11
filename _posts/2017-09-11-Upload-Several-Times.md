@@ -33,5 +33,5 @@ $('.upload').click(function () {
 });
 ```
 
-参考链接：[http://www.aichengxu.com/javascript/78921.htm]
+参考链接：<http://www.aichengxu.com/javascript/78921.htm>
 
