@@ -27,7 +27,7 @@ $('.upload').click(function () {
 $('.upload').click(function () {
   var $chooseFile = $(this).siblings('input');
   $chooseFile.click();
-  $chooseFile.unbind().change(function () {
+  $chooseFile.off().change(function () {
     // 上传图片
   });
 });
