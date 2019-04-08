@@ -6,7 +6,7 @@ header-img: "img/plane.jpg"
 ---
 
 <center>
-    <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
+    <p><img src="img/Zero.png" align="center"></p>
 </center>
 
 Ehhhh...I know it's not a good question.
@@ -21,5 +21,5 @@ My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Fa
 > Live long and prosper
 
 <center>
-    <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
+    <p><img src="img/hacker.png" align="center"></p>
 </center>
